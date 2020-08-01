@@ -1,0 +1,6 @@
+# DO NOT REMOVE THIS LINE AND THE LINES BELLOW SSL_REDIRECT:ghostclear.com
+RewriteEngine on
+RewriteCond %{HTTPS} off
+RewriteCond %{HTTP_HOST} (www\.)?ghostclear.com
+RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+# DO NOT REMOVE THIS LINE AND THE LINES BELLOW SSL_REDIRECT:ghostclear.com
