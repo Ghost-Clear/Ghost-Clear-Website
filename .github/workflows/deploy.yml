@@ -17,6 +17,6 @@ jobs:
     - name: Run a multi-line script
       run: |
         ftp ftp.ghostclear.com username u338616000.varunchitturi password Var29Aug!
-  
+        ls
         
         
