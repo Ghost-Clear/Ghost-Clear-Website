@@ -13,17 +13,9 @@ jobs:
     steps:
 
     - uses: actions/checkout@v2
-    
-    - name: install ftp
-      run: |
-        sudo apt-get install ftp
     - name: Update Files
       run: |
-        ftp ftp.ghostclear.com username u338616000.varunchitturi password Var29Aug!
-        help
-        mdelete *
-        mput *
-        ls
-        bye
-        
-        
+        chmod +x deploy.sh
+        ./deploy.sh
+
+
