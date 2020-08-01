@@ -3,7 +3,7 @@
     width: 70px;
     border-radius: 20px;
     position: absolute;
-    top: 20px;
+    top: 10px;
     left: 20px;
 }
 #cart-icon {
@@ -11,7 +11,7 @@
     height: 30px;
     width: 30px;
     right: 50px;
-    top: 40px;
+    top: 30px;
 
 
 }
@@ -20,7 +20,7 @@
     height: 45px;
     width: 45px;
     right: 120px;
-    top: 32px;
+    top: 22px;
 
 }
 
@@ -33,7 +33,7 @@
     width: 270px;
     height: 42px;
     left: 120px;
-    top: -5px;
+    top: -15px;
     font-size: 40px;
 
 }
@@ -42,18 +42,21 @@
     width: 99px;
     height: 42px;
     right: 300px;
-    top: 20px;
+    top: 10px;
 }
 #about {
     position: absolute;
     width: 200px;
     height: 42px;
     right: 100px;
-    top: 20px;
+    top: 10px;
 }
 #header{
     background-color: white;
     padding-bottom: 100px;
+    margin-left: -10px;
+    margin-right: -10px;
+    margin-top: -10px;
 }
 #body{
     background-color: #1F2E35;
