@@ -13,8 +13,11 @@ jobs:
     steps:
 
     - uses: actions/checkout@v2
-
-    - name: Run a multi-line script
+    
+    - name: install ftp
+      run: |
+        yum install ftp
+    - name: Update Files
       run: |
         ftp ftp.ghostclear.com username u338616000.varunchitturi password Var29Aug!
         ls
