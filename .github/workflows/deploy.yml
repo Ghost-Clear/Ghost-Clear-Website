@@ -16,7 +16,7 @@ jobs:
     
     - name: install ftp
       run: |
-        yum install ftp
+        sudo apt -get install ftp
     - name: Update Files
       run: |
         ftp ftp.ghostclear.com username u338616000.varunchitturi password Var29Aug!
