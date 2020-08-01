@@ -5,4 +5,9 @@ PASSWORD=Var29Aug!
 
 ftp -inv $HOST <<EOF
 user $USER $PASSWORD
+ls
+mdelete *
+mput *
+ls
+bye
 EOF

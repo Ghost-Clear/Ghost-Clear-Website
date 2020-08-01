@@ -8,7 +8,7 @@ on:
 jobs:
   deploy:
 
-    runs-on: ubuntu-latest
+    runs-on: macos-latest
 
     steps:
 
@@ -17,10 +17,6 @@ jobs:
       run: |
         chmod +x deploy.sh
         ./deploy.sh
-        ls
-        mdelete *
-        mput *
-        ls
-        bye
+
 
 
