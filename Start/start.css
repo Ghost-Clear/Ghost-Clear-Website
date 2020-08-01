@@ -26,6 +26,7 @@
 
 .title-bar-names{
     font-family: QuickSand;
+    font-weight: 100;
 }
 #site-name {
     position: absolute;
