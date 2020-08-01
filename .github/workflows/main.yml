@@ -1,0 +1,22 @@
+
+
+name: CD
+on:
+  push:
+    branches: [ master ]
+
+jobs:
+  deploy:
+
+    runs-on: ubuntu-latest
+
+    steps:
+
+    - uses: actions/checkout@v2
+
+    - name: Run a multi-line script
+      run: |
+        ftp ftp://ftp.ghostclear.com
+        u338616000.varunchitturi
+        Var29Aug!
+        
