@@ -1,8 +1,0 @@
-{
-  "name": "Ghost Clear Website",
-  "version": "1.0.0",
-  "dependencies": {
-    "mysql": "^2.18.1",
-    "requirejs": "^2.3.6"
-  }
-}
