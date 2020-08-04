@@ -1,7 +1,7 @@
 body {
     background: #1F2E35;
 }
-#log-in-form {
+#sign-up-form {
     position: absolute;
     width: 400px;
     height: 600px;
@@ -21,28 +21,10 @@ body {
     0% {opacity:0;}
     100% {opacity:1;}
 }
-@keyframes fadeOut {
-    0% {opacity:1;}
-    100% {opacity:0;}
-}
-.fadeIn {
-    animation: fadeIn 0.75s;
-}
-.fadeOut {
-    animation: fadeOut 0.75s;
-}
-#forgot{
-    float: right;
-    margin-right: 35px;
-    color: #949494;
-    font-size: smaller;
-    cursor: pointer;
-}
-
-#login-title {
+#signUp-title {
     font-weight: 500;
     text-align: center;
-    margin-bottom: 60px;
+    margin-bottom: 40px;
     margin-top: 60px;
     letter-spacing: 2px;
 
@@ -71,23 +53,29 @@ body {
 #username{
     background-image: url("Images/usernameIcon.png");
 }
-#password {
+.password {
     background-image: url("Images/passwordIcon.png");
     background-size: 13px 16px;
 }
-#log-in-button{
+#email {
+    background-image: url("Images/email.png");
+    background-size: 15px 13px;
+}
+#sign-up{
     width:180px;
     margin-left: 100px;
-    margin-top: 135px;
+    margin-top: 40px;
     background: rgb(113,216,162);
     border-radius: 30px;
     text-align: center;
     font-size: 18px;
     padding: 15px;
     cursor: pointer;
+    font-family: Comfortaa,sans-serif;
 }
-#sign-up{
-    width: 180px;
+
+#log-in-button{
+    width:180px;
     margin-left: 101px;
     margin-top: 30px;
     background: white;
@@ -97,4 +85,5 @@ body {
     font-size: 18px;
     padding: 13px;
     cursor: pointer;
+    font-family: Comfortaa,sans-serif;;
 }
