@@ -3,12 +3,11 @@ body {
     font-family: QuickSand, sans-serif;
 }
 #site-icon {
-    height: 70px;
-    width: 70px;
-    border-radius: 20px;
+
+    width: 460px;
     position: absolute;
     top: 10px;
-    left: 30px;
+    left: 2%;
     cursor: pointer;
 }
 
@@ -87,4 +86,93 @@ body {
 }
 .animate:hover .hover.hover-3:before, .animate:hover .hover.hover-3:after, .animate:hover .hover.hover-4:before, .animate:hover .hover.hover-4:after {
     width: 40%;
+}
+@media (max-width: 800px) {
+    #about {
+        text-align: center;
+        position: absolute;
+        width: 200px;
+        height: 42px;
+        right: 7px;
+        font-size: 29px;
+        top: 7px
+    }
+    #shop {
+        text-align: center;
+        position: absolute;
+        width: 100px;
+        height: 42px;
+        right: 170px;
+        font-size: 29px;
+        top: 7px;
+
+    }
+    #site-icon {
+
+        width: 380px;
+        position: absolute;
+        top: 15px;
+        left: 2%;
+        cursor: pointer;
+    }
+}
+
+@media (max-width: 850px) {
+    #about {
+        text-align: center;
+        position: absolute;
+        width: 200px;
+        height: 42px;
+        right: 7px;
+        font-size: 29px;
+        top: 7px;
+        font-weight: 10;
+    }
+    #shop {
+        text-align: center;
+        position: absolute;
+        width: 100px;
+        height: 42px;
+        right: 170px;
+        font-size: 29px;
+        top: 7px;
+
+    }
+    #site-icon {
+
+        width: 380px;
+        position: absolute;
+        top: 15px;
+        left: 2%;
+        cursor: pointer;
+    }
+}
+@media (max-width: 550px) {
+    #about {
+        text-align: center;
+        position: absolute;
+        width:  120px;
+        height: 42px;
+        right: 2px;
+        font-size: 23px;
+        top: 14px
+    }
+    #shop {
+        text-align: center;
+        position: absolute;
+        width: 50px;
+        height: 42px;
+        right: 130px;
+        font-size: 23px;
+        top: 14px;
+
+    }
+    #site-icon {
+
+        width: 350px;
+        position: absolute;
+        top: 17px;
+        left: 2%;
+        cursor: pointer;
+    }
 }
