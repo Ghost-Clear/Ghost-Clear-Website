@@ -266,7 +266,14 @@
     }
 
 }
+@media handheld {
+    .container{
 
+    }
+    .parallax-child{
+
+    }
+}
 @media (max-width: 600px) {
     .centered {
         left: 70%;
