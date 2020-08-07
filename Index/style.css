@@ -247,11 +247,6 @@
         cursor: pointer;
     }
 }
-@media (max-width:500px)  {
-    .parallax-child{
-        transform-origin: 0 0;
-        transform: translateZ(0px) scale(1);
-    }
 @media (max-width: 950px) {
     .centered {
         left: 70%;
@@ -291,5 +286,9 @@
     }
 
 }
-
+@media handheld and (min-width:961px)   {
+    .parallax-child{
+        transform-origin: 0 0;
+        transform: translateZ(0px) scale(1);
+    }
 }
