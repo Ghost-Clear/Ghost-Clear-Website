@@ -1,0 +1,24 @@
+{
+  "name": "ghost-clear-website",
+  "version": "1.0.0",
+  "description": "",
+  "main": "",
+  "dependencies": {
+    "rellax": "^1.12.1",
+    "requirejs": "^2.3.6"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/varunchitturi/Ghost-Clear-Website.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/varunchitturi/Ghost-Clear-Website/issues"
+  },
+  "homepage": "https://github.com/varunchitturi/Ghost-Clear-Website#readme"
+}

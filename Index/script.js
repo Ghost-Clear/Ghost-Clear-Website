@@ -1,3 +1,5 @@
+
+let rellax = new Rellax('.rellax')
 function goToIndex() {
     window.location.href = 'index.html';
 }
@@ -6,4 +8,5 @@ function goToShop(){
     window.location.href = 'Shop/shop.html';
 }
 document.querySelector("#shop").addEventListener("click", goToShop);
-fitText(document.querySelector("#text-one"), 0.38)
+
+
