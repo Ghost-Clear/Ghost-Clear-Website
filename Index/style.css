@@ -286,7 +286,7 @@
     }
 
 }
-@media only handheld {
+@media (min-width:961px)  {
     .parallax-child{
         transform-origin: 0 0;
         transform: translateZ(0px) scale(1);
