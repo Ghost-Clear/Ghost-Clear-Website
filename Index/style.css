@@ -286,11 +286,9 @@
     }
 
 }
-@media only screen and (max-device-width: 480px) {
-    .container{
-
-    }
+@media only handheld {
     .parallax-child{
-
+        transform-origin: 0 0;
+        transform: translateZ(0px) scale(1);
     }
 }
