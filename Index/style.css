@@ -266,14 +266,7 @@
     }
 
 }
-@media handheld {
-    .container{
 
-    }
-    .parallax-child{
-
-    }
-}
 @media (max-width: 600px) {
     .centered {
         left: 70%;
@@ -288,8 +281,16 @@
         margin-left: 3%;
         float: left;
         width: 35%;
-        font-size: 15px;
+        font-size: 13px;
         font-family: Quicksand, sans-serif;
     }
 
+}
+@media only screen and (max-device-width: 480px) {
+    .container{
+
+    }
+    .parallax-child{
+
+    }
 }
