@@ -341,7 +341,7 @@
 
     }
     #text-two{
-        font-size: 14px;
+        font-size: 18px;
         width: 30%;
     }
     #text-three{
@@ -384,12 +384,16 @@
     }
     #text-three{
         margin-top: 14%;
-        font-size: 14px;
+        font-size: 16px;
     }
     #goals-img {
-        margin-top: 150%;
+        margin-top: 120%;
         height: 280px;
     }
+    #text-two {
+        font-size: 16px;
+    }
+
 }
 
 @media (max-width:  840px) {

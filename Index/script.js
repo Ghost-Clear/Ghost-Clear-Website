@@ -15,7 +15,7 @@ document.querySelector('#text-two').classList.add('hidden');
     var windowHeight;
 
     function init() {
-        elements = document.querySelectorAll('#text-one');
+        elements = document.querySelectorAll('#text-one, #text-three');
         windowHeight = window.innerHeight;
     }
 
