@@ -15,7 +15,7 @@ document.querySelector('#text-two').classList.add('hidden');
     var windowHeight;
 
     function init() {
-        elements = document.querySelectorAll('#text-one, #text-three');
+        elements = document.querySelectorAll('#text-one, #text-three, #text-five');
         windowHeight = window.innerHeight;
     }
 
@@ -224,6 +224,38 @@ createPieCharts();
             }
             else{
                 element2.classList.remove('line-animate');
+                element2.classList.add('hidden');
+            }
+        }
+    }
+
+    window.addEventListener('scroll', checkPosition);
+    window.addEventListener('resize', init);
+
+    init();
+    checkPosition();
+})();
+(function() {
+    var elements1;
+    var windowHeight1;
+
+    function init() {
+        elements1 = document.querySelectorAll('#features');
+
+        windowHeight1 = window.innerHeight;
+    }
+
+    function checkPosition() {
+        for (let i = 0; i < elements1.length; i++) {
+            let element2 = elements1[i];
+            let positionFromTop2 = elements1[i].getBoundingClientRect().top;
+
+            if (positionFromTop2 - windowHeight1 <= 0 ) {
+                element2.classList.add('feature-fadeIn');
+                element2.classList.remove('hidden');
+            }
+            else{
+                element2.classList.remove('feature-fadeIn');
                 element2.classList.add('hidden');
             }
         }

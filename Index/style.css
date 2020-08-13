@@ -33,7 +33,6 @@
 
 }
 #header{
-
     background-color: white;
     padding-bottom: 100px;
     margin-left: -10px;
@@ -215,6 +214,29 @@
     text-align: left;
     font-family: QuickSand, sans-serif;
     font-size: 24px;
+}
+#device {
+    position: relative;
+    margin-top: 4%;
+    height: 600px;
+    background: white;
+    border-radius: 20px;
+}
+#text-five{
+    margin-top: 7%;
+    margin-left: 7%;
+    float: left;
+    width: 45%;
+    font-size: 25px;
+    font-family: Quicksand, sans-serif;
+}
+#devices-img {
+    position: absolute;
+    top: 110%;
+    right: 5%;
+    transform: translate(-50%, -50%);
+    height: 600px;
+    z-index: 10;
 }
 @media (max-width: 800px) {
     #about {
@@ -491,7 +513,7 @@
 .chart span {
     margin: 0 150px;
     display: block;
-    background: rgb(69,255,153);
+    background: rgb(69, 255, 153);
     width: 20px;
     border-radius: 10px;
     box-shadow: 4px 4px #1F2E35;
@@ -602,4 +624,26 @@ polyline {
     position: absolute;
 
 }
-
+#features{
+    position: relative;
+    margin-top: 4%;
+    height: 600px;
+    background: #2D424B;
+    border-radius: 20px;
+}
+#features-img{
+    width: 850px;
+    margin-left: 500px;
+    margin-top: 80px;
+}
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+.feature-fadeIn{
+    animation: fadeIn 2s ease-in;
+}
