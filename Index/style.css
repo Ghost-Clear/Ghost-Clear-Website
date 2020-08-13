@@ -203,13 +203,13 @@
     position: relative;
     margin-top: 4%;
     height: 600px;
-    background: #2D424B;
+    background: #2d424b;
     border-radius: 20px;
 }
 #text-four{
     color: white;
     float: right;
-    margin-top: 4%;
+    margin-top: 8%;
     margin-right: 10%;
     width: 40%;
     text-align: left;
@@ -468,9 +468,9 @@
 }
 #stats-img{
     float: left;
-    left: 10px;
+    left: 70px;
     position: absolute;
-    top: 20px;
+    margin-top: 650px;
 }
 .chart {
     display: table;
@@ -480,6 +480,7 @@
     height: 200px;
     background-size: 100% 50px;
     background-position: left top;
+
 }
 .chart li {
     position: relative;
@@ -488,11 +489,12 @@
     height: 200px;
 }
 .chart span {
-    margin: 0 2.5em;
+    margin: 0 150px;
     display: block;
-    background: rgb(81, 239, 153);
+    background: rgb(69,255,153);
     width: 20px;
     border-radius: 10px;
+    box-shadow: 4px 4px #1F2E35;
 }
 
 
@@ -518,10 +520,6 @@
         transform: rotate(0deg) translate3d(0, 0, 0);
     }
 }
-.pie-chart {
-    font-family: QuickSand, sans-serif;
-
-}
 .pie-chart--wrapper {
     width: 400px;
     margin-left: 50px;
@@ -541,7 +539,7 @@
     z-index: 1;
     width: 100px;
     height: 100px;
-    background: #2D424B;
+    background: #2d424b;
     border-radius: 50%;
     top: 50px;
     left: 50px;
@@ -574,7 +572,7 @@
     width: 200px;
     height: 200px;
     border-radius: 50%;
-
+    box-shadow: 4px 4px #1F2E35;;
 }
 .pie-charts {
     display: -webkit-box;
@@ -584,4 +582,24 @@
     flex-direction: row;
 }
 
+polyline {
+    stroke-dasharray: 1000;
+    stroke-dashoffset: 1000;
+}
+
+@keyframes dash {
+    to {
+        stroke-dashoffset: 0;
+    }
+
+}
+.line-animate{
+    animation: dash 3s forwards;
+}
+#line-chart{
+    top: 210px;
+    margin-left: 160px;
+    position: absolute;
+
+}
 

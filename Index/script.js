@@ -47,7 +47,7 @@ document.querySelector('#text-two').classList.add('hidden');
     var windowHeight1;
 
     function init() {
-        elements1 = document.querySelectorAll('#text-two');
+        elements1 = document.querySelectorAll('#text-two, #text-four');
         windowHeight1 = window.innerHeight;
     }
 
@@ -150,15 +150,13 @@ function createPie(id) {
     dataElement   = id + " .pie-chart__legend"
 
     color         = [
-        "rgb(255,181,55)",
-        "rgb(57,127,255)",
-        "rgb(255,66,76)",
         "rgb(69,255,153)",
+        "rgb(255,66,76)"
     ];
 
-   listData = [7,3,5,2];
+   listData = [7,3];
 
-    listTotal = 17;
+    listTotal = 14;
 
     for(i=0; i < listData.length; i++) {
         var size = sliceSize(listData[i], listTotal);
@@ -192,6 +190,40 @@ createPieCharts();
             }
             else{
                 element2.classList.remove('pie-animate');
+                element2.classList.add('hidden');
+            }
+        }
+    }
+
+    window.addEventListener('scroll', checkPosition);
+    window.addEventListener('resize', init);
+
+    init();
+    checkPosition();
+})();
+
+
+(function() {
+    var elements1;
+    var windowHeight1;
+
+    function init() {
+        elements1 = document.querySelectorAll('polyline');
+
+        windowHeight1 = window.innerHeight;
+    }
+
+    function checkPosition() {
+        for (let i = 0; i < elements1.length; i++) {
+            let element2 = elements1[i];
+            let positionFromTop2 = elements1[i].getBoundingClientRect().top;
+
+            if (positionFromTop2 - windowHeight1 <= 0 ) {
+                element2.classList.add('line-animate');
+                element2.classList.remove('hidden');
+            }
+            else{
+                element2.classList.remove('line-animate');
                 element2.classList.add('hidden');
             }
         }
