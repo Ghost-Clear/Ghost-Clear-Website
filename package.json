@@ -4,6 +4,7 @@
   "description": "",
   "main": "",
   "dependencies": {
+    "bootstrap": "^4.5.2",
     "rellax": "^1.12.1",
     "requirejs": "^2.3.6"
   },

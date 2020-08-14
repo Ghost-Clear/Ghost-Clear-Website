@@ -151,16 +151,17 @@ function createPie(id) {
 
     color         = [
         "rgb(69,255,153)",
-        "rgb(255,66,76)"
+        "rgb(255,66,76)",
+        "rgb(255,179,66)"
     ];
 
-   listData = [7,3];
+   listData = [100,79];
 
-    listTotal = 14;
+    listTotal = 179;
 
     for(i=0; i < listData.length; i++) {
         var size = sliceSize(listData[i], listTotal);
-        iterateSlices(id, size, pieElement, offset, i, 0, color[i]);
+        iterateSlices(id, size, pieElement, offset, i, 1, color[i]);
         offset += size;
     }
 }
