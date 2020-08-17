@@ -39,7 +39,9 @@
     margin: 15px;
     box-shadow: 3px 7px 2px #374048;
 }
-
+.row-space{
+    padding: 30px;
+}
 .mycard h2{
     color: white;
 }
@@ -263,6 +265,9 @@ section {
     background: #3B5998;
     color: white;
 }
+#row-2{
+    --animate-duration: 1.7s;
+}
 @media (max-width: 767px) {
    #workouts-img{
        padding-left: 70px;
@@ -279,6 +284,13 @@ section {
         margin-bottom: 400px;
         padding: 0 0 400px;
     }
+    #row-2{
+        padding-top: 0;
+    }
+    #row-1{
+        padding-bottom: 0;
+    }
+
 }
 @media (min-width: 768px) and (max-width: 990px) {
     #iphoneDevice{
@@ -295,6 +307,12 @@ section {
     #devices-img{
         margin-top: 100px;
         width: 300px;
+    }
+    #row-2{
+        padding-top: 0;
+    }
+    #row-1{
+        padding-bottom: 0;
     }
 }
 @media (min-width: 991px) and (max-width: 1199px) {
