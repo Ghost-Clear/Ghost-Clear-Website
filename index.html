@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <link type="text/css" rel="stylesheet" href="Index/style.css"/>
-
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 <head>
     <meta charset="UTF-8">
     <title>Ghost Clear</title>
@@ -9,175 +9,254 @@
 
 </head>
 <body id="body">
-    <div id="header">
-        <style>@import url('https://fonts.googleapis.com/css?family=Quicksand');</style>
-        <img src="Index/Images/Logo.png" id="site-icon" name="site-icon"/>
-        <div class="animate">
-            <h1 id="shop" name="shop" class="title-bar-names hover hover-3">Buy</h1>
-        </div>
-        <div class="animate">
-            <h1 id="about" name="about" class="title-bar-names hover hover-3">About Us</h1>
-        </div>
-
-
+<nav class="navbar fixed-top navbar-expand-md">
+    <a class="navbar-brand" href="#"><img src="Index/Images/Logo.png"></a>
+    <button class="navbar-toggler navbar-light" type="button" data-toggle="collapse" data-target="#main-navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-end" id="main-navigation">
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link" href="#">Shop</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+            </li>
+        </ul>
     </div>
+</nav>
+
+
 </body>
 
-<div>
-<div id="main-title">
-    <div id="grid-slow-scroll" class="rellax" data-rellax-speed="-2" >
-        <img id="grid-image"src="Index/Images/grid.png"/>
-    </div>
-    <div id="title-fast-scroll" class="rellax" data-rellax-speed="3">
-        <img id="big-name" src="Index/Images/Ghost%20Clear.png"/>
-    </div>
-</div>
-    <div id="explain">
-        <div id="text-one">
-            <p>To enhance your ghosting experience, we have created a group of six devices that seamlessly connect to the Ghost Clear App. From the app you can launch a number of workouts that are all highly customizable.
-            </p>
-            <br>
-            <p>The six devices were meticulously crafted for ruggedness, ease of use, and longevity. The devices are used to indicate which corner to ghost to and to detect a swing of a racket. </p>
-        </div>
-        <img id="home-page-img" src="Index/Images/iPhoneAndDevice.png"/>
-    </div>
 
-    <div id="workouts">
-        <div id="text-two">
-            <h1>Workouts</h1>
-            <p>The 4 different workouts that you can choose from are the Timed Workout, the Number workout, the Beep test workout, and the Play a Pro workout. Each one can be programed to the intensity of your choice. During the workout,
-            the app and the devices will indicate which corner to ghost to using the LEDs on the devices and speaker on the phone.</p>
+<div>
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img class="d-block w-100" src="Index/Images/iphoneHold.png" alt="First slide">
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" src="Index/Images/iphoneOnBlack.png" alt="Second slide">
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" src="Index/Images/iphoneOnWhite.png" alt="Third slide">
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" src="Index/Images/iphonePoint.png" alt="Fourth slide">
+            </div>
+
         </div>
-        <img id="workouts-img" src="Index/Images/workouts.png"/>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
     </div>
-    <div id="goals">
-        <div id="text-three">
-            <h1>Goals</h1>
-            <p>In the app, you are able to set goals that you would like to achieve. The View Your Goals screen allow you to closely track your goals and show you which ones have been achieved and which ones have not. As you complete each workout, the app automatically
-             updates each goal's completion status.</p>
+    <div class="container main" >
+
+
+        <div class="row featurette back-light" id="f1">
+            <div class="col-md-7 text-middle animated text" id="t1">
+                <h2 class="featurette-heading">Improve. <span class="text-muted">Efficiently.</span></h2>
+                <p class="lead">To enhance your ghosting experience, we have created a group of six devices that seamlessly connect to the Ghost Clear App. From the app you can launch a number of workouts that are all highly customizable. The six devices were meticulously crafted for ruggedness, ease of use, and longevity.</p>
+            </div>
+            <div class="col-md-5">
+                <img id="iphoneDevice" src="Index/Images/iPhoneAndDevice.png" class="featurette-image img-fluid mx-auto animated image" width="500" height="500"  role="img" ><rect width="100%" height="100%" fill="#eee"></rect>
+            </div>
         </div>
-        <img id="goals-img" src="Index/Images/goals.png"/>
-    </div>
-    <div id="statistics">
-        <div id="text-four">
-            <h1>Statistics</h1>
-            <p>The app provides detailed statistics of the workouts you have completed. These
-            statistics include weekly workout progress, beep test progress, workout composition and overall
-            ghosting stats.</p>
+
+
+
+        <div class="row featurette" id="f2">
+            <div class="col-md-7 order-md-2 text-middle animated text" id="t2">
+                <h2 class="featurette-heading">Workouts. <span class="text-muted">Many options, your choice.</span></h2>
+                <p class="lead">The 4 different workouts that you can choose from are the Timed Workout, the Number workout, the Beep test workout, and the Play a Pro workout. Each one can be programed to the intensity of your choice. During the workout,
+                    the app and the devices will indicate which corner to ghost to using the LEDs on the devices and speaker on the phone.</p>
+            </div>
+            <div class="col-md-5 order-md-1">
+                <img id="workouts-img" src="Index/Images/workouts.png" class="featurette-image img-fluid mx-auto animated image"  width="260" height="500" role="img" ><rect width="100%" height="100%" fill="#eee"></rect>
+            </div>
         </div>
-        <div id="stats-img" >
-            <div id="chart">
-                <ul class="chart">
+
+
+
+        <div class="row featurette back-light" id="f3">
+            <div class="col-md-7 text-middle animated text" id="t3">
+                <h2 class="featurette-heading">Goals. <span class="text-muted">Set then achieve.</span></h2>
+                <p class="lead">In the app, you are able to set goals that you would like to achieve. The View Your Goals screen allow you to closely track your goals and show you which ones have been achieved and which ones have not. As you complete each workout, the app automatically
+                    updates each goal's completion status.</p>
+            </div>
+            <div class="col-md-5">
+                <img id="goals-img" src="Index/Images/goals.png" class="featurette-image img-fluid mx-auto animated image" width="500" height="500" role="img" ><rect width="100%" height="100%" fill="#eee"></rect>
+            </div>
+        </div>
+
+        <div class="row featurette" id="f4">
+            <div class="col-md-7 order-md-2 text-half-middle animated text " id="t4">
+                <h2 class="featurette-heading">Statistics. <span class="text-muted">Everything is tracked.</span></h2>
+                <p class="lead">The app provides detailed statistics of the workouts you have completed. These
+                    statistics include weekly workout progress, beep test progress, workout composition and overall
+                    ghosting stats.</p>
+            </div>
+            <div class="col-md-5 order-md-1" id="chart-contain">
+                <div id="chart" >
+                    <ul class="chart" id="chart-img">
+                        <li>
+                            <span style="height:35%" title=""></span>
+                        </li>
+                        <li>
+                            <span style="height:70%" title=""></span>
+                        </li>
+                        <li>
+                            <span style="height:50%" title=""></span>
+                        </li>
+                        <li>
+                            <span style="height:15%" title=""></span>
+                        </li>
+                        <li>
+                            <span style="height:25%" title=""></span>
+                        </li>
+                        <li>
+                            <span style="height:10%" title=""></span>
+                        </li>
+                        <li>
+                            <span style="height:60%" title=""></span>
+                        </li>
+                    </ul>
+
+                </div>
+
+            </div>
+        </div>
+        <div class="row featurette back-light" id="f5">
+            <div class="col-md-7 text-half-middle animated text" id="t5">
+                <h2 class="featurette-heading">Devices. <span class="text-muted">Connect and train.</span></h2>
+                <p class="lead">The 6 ghosting devices are placed at the 4 corners and the 2 sides of the squash court.
+                    When starting a workout, the devices will automatically connect to your phone via bluetooth so
+                    you do not need to go through the hassle of connecting each of them through settings.
+                    During the workout, the devices will light up to indicate which corner you need to ghost to and will detect your body when you approach them.</p>
+            </div>
+            <div class="col-md-5">
+                <img id="devices-img" src="Index/Images/devices.png" class="featurette-image img-fluid mx-auto animated image" width="500" height="500"  role="img" ><rect width="100%" height="100%" fill="#eee"></rect>
+            </div>
+        </div>
+
+</div>
+</div>
+
+<!-- Footer -->
+<footer class="page-footer font-small " id="main-foot">
+
+    <!-- Footer Links -->
+    <div class="container text-center text-md-left">
+
+        <!-- Grid row -->
+        <div class="row">
+
+            <!-- Grid column -->
+            <div class="col-md-4 col-lg-3 mr-auto my-md-4 my-0 mt-4 mb-1">
+
+                <!-- Content -->
+                <h5 class="font-weight-bold text-uppercase mb-4">Misssion</h5>
+                <br>
+                <p>We help squash athletes by integrating technology with squash to help their training experience.</p>
+
+
+            </div>
+            <!-- Grid column -->
+
+            <hr class="clearfix w-100 d-md-none">
+
+            <!-- Grid column -->
+            <div class="col-md-2 col-lg-2 mx-auto my-md-4 my-0 mt-4 mb-1">
+
+                <!-- Links -->
+                <h5 class="font-weight-bold text-uppercase mb-4">Pages</h5>
+
+                <ul class="list-unstyled">
                     <li>
-                        <span style="height:35%" title=""></span>
+                        <p>
+                            <a href="#!">Shop</a>
+                        </p>
                     </li>
                     <li>
-                        <span style="height:70%" title=""></span>
-                    </li>
-                    <li>
-                        <span style="height:50%" title=""></span>
-                    </li>
-                    <li>
-                        <span style="height:15%" title=""></span>
-                    </li>
-                    <li>
-                        <span style="height:25%" title=""></span>
-                    </li>
-                    <li>
-                        <span style="height:10%" title=""></span>
-                    </li>
-                    <li>
-                        <span style="height:60%" title=""></span>
+                        <p>
+                            <a href="#!">About</a>
+                        </p>
                     </li>
                 </ul>
+
             </div>
-                <div class="pie-charts">
-                    <div class="pieID--operations pie-chart--wrapper">
-                        <div class="pie-chart">
-                            <div class="pie-chart__pie"></div>
-                    </div>
-                </div>
+            <!-- Grid column -->
+
+            <hr class="clearfix w-100 d-md-none">
+
+            <!-- Grid column -->
+            <div class="col-md-4 col-lg-3 mx-auto my-md-4 my-0 mt-4 mb-1">
+
+                <!-- Contact details -->
+                <h5 class="font-weight-bold text-uppercase mb-4">Contact</h5>
+
+                <ul class="list-unstyled">
+
+                    <li>
+                        <p>
+                            <i class="fas fa-envelope mr-3"></i> contact@ghostclear.com</p>
+                    </li>
+                    <li>
+                        <p>
+                            <i class="fas fa-phone mr-3"></i> +1 408 680 9552</p>
+                    </li>
+                </ul>
+
             </div>
-            <div id="line-chart">
-            <svg class='container' width="529px" height="286px" >
-                <defs></defs>
-                <g id="graph-copy" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(30.000000, 27.000000)">
-                    <g id="GRAPHS" transform="translate(64.000000, 16.000000)" stroke-linecap="round" stroke-width="8" stroke-linejoin="round">
-                        <polyline stroke="#1F2E35" points="10,210 60,130 130,160 200,70 270,100 330, 30"></polyline>
-                        <polyline stroke="rgb(69,255,153)" points="5,205 55,125 125,155 195,65 265,95 325, 25"></polyline>
-                        <polyline stroke="#1F2E35" points="5, 25  55,95 125,65 195,155 265,125 325,205"></polyline>
-                        <polyline id="Bridge" stroke="rgb(255,66,76)" points="0, 20  50,90 120,60 190,150 260,120 320,200"></polyline>
-                    </g>
-                </g>
-            </svg>
+            <!-- Grid column -->
+
+            <hr class="clearfix w-100 d-md-none">
+
+            <!-- Grid column -->
+            <div class="col-md-2 col-lg-2 text-center mx-auto my-4">
+
+                <!-- Social buttons -->
+                <h5 class="font-weight-bold text-uppercase mb-4">Follow Us</h5>
+
+                <a href="https://facebook.com/ghostclear" id="fbook" class="fa fa-facebook"></a>
+                <a href="https://instagram.com/ghostclear"  id="insta" class="fa fa-instagram"></a>
+                <a href="#https://github.com/varunchitturi/Ghosting-Connector"  id="git" class="fa fa-github"></a>
+
             </div>
-        </div>
-    </div>
-    <div id="device">
-        <div id="text-five">
-            <h1>Devices</h1>
-            <p>The 6 ghosting devices are placed at the 4 corners and the 2 sides of the squash court.
-            When starting a workout, the devices will automatically connect to your phone via bluetooth so
-            you do not need to go through the hassle of connecting each of them through settings.
-            During the workout, the devices will light up to indicate which corner you need to ghost to and will detect your body when you approach them.</p>
-        </div>
-        <img id="devices-img"  src="Index/Images/devices.png"/>
-    </div>
-    <div id="features">
-        <img id="features-img"  src="Index/Images/features.svg"/>
-    </div>
-</div>
-<footer class="footer-distributed">
+            <!-- Grid column -->
 
-    <div class="footer-left">
-
-        <h3><img src="Index/Images/Ghost%20Clear%20Logo.png"></h3>
-
-        <p class="footer-links">
-            <a href="#" class="link-1">Home</a>
-            <a href="#">Buy</a>
-            <a href="#">About</a>
-        </p>
-
-        <p class="footer-company-name">Squash Dev LLC © 2020</p>
-    </div>
-    <div class="footer-center">
-        <div>
-            <i class="fa fa-phone"></i>
-            <p></p>
         </div>
-        <div>
-            <i class="fa fa-phone"></i>
-            <p>Phone: 1-408-680-9552</p>
-        </div>
-        <div>
-            <i class="fa fa-envelope"></i>
-            <p><a href="mailto:support@company.com">varunchitturi@ghostclear.com</a></p>
-        </div>
+        <!-- Grid row -->
 
     </div>
 
-    <div class="footer-right">
-
-        <p class="footer-company-about">
-            <span>About the company</span>
-            We create quality ghosting equipment for squash athletes looking to improve their skills.
-        </p>
-
-        <div class="footer-icons">
-
-            <a href="https://www.facebook.com/ghostclear"><img src="Index/Images/facebook.png"></a>
-            <a href="https://www.instagram.com/ghostclear/"><img src="Index/Images/instagram.png"></a>
-            <a href="https://github.com/varunchitturi/Ghosting-Connector"><img src="Index/Images/github.png"></a>
-
-        </div>
-
+    <div id="cr" class="footer-copyright text-center py-3"> 2020 © Copyright:
+        <p>Squash Dev LLC</p>
     </div>
+    <!-- Copyright -->
 
 </footer>
-
+<!-- Footer -->
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script type="text/javascript" src="node_modules/rellax/rellax.js"></script>
 <script type="text/javascript" src="Index/script.js"></script>
-<script type="text/javascript" src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/css/mdb.min.css" rel="stylesheet">
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/js/mdb.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 </html>
