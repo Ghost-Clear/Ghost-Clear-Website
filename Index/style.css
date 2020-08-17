@@ -28,6 +28,30 @@
     background-color: #2D424B;
     border-radius: 20px;
 }
+.card-pack{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.mycard{
+    background-color: #3a5460;
+    border-radius: 20px;
+    padding: 40px 10px 10px;
+    margin: 15px;
+    box-shadow: 3px 7px 2px #374048;
+}
+
+.mycard h2{
+    color: white;
+}
+.mycard p{
+    color: #d6d6d6;
+}
+#stat-learn, #work-learn, #device-learn{
+    background-color: #ffffff !important;
+    border: 3px solid rgb(112,216,162) !important;
+    border-radius: 40px;
+    color: black;
+}
 .featurette-heading{
     color: #e5e5e5;
 }

@@ -19,7 +19,7 @@ function animateOnScrollTextLeft(){
 
             if (positionFromTop - windowHeight <= -150 ) {
                 element.classList.remove('hidden');
-                element.classList.add('fadeInLeft');
+                element.classList.add('zoomIn');
 
             }
 
@@ -50,7 +50,7 @@ function animateOnScrollTextRight(){
 
             if (positionFromTop - windowHeight <= -150 ) {
                 element.classList.remove('hidden');
-                element.classList.add('fadeInRight');
+                element.classList.add('zoomIn');
 
             }
 
@@ -64,7 +64,6 @@ function animateOnScrollTextRight(){
     checkPosition();
 }
 animateOnScrollTextRight();
-
 
 (function() {
     var elements1;
