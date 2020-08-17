@@ -1,12 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
-#site-icon {
 
-    width: 460px;
-    position: absolute;
-    top: 10px;
-    left: 2%;
-    cursor: pointer;
-}
 #f1, #f3, #f5{
     background-color: white;
 }
