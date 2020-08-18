@@ -258,9 +258,7 @@ section {
     background: #3B5998;
     color: white;
 }
-#row-2{
-    --animate-duration: 1.7s;
-}
+
 @media (max-width: 767px) {
    #workouts-img{
        padding-left: 70px;
