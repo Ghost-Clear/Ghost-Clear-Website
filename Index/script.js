@@ -18,7 +18,7 @@ function animateOnScrollTextLeft(){
             let element = elements[i];
             let positionFromTop = elements[i].getBoundingClientRect().top;
 
-            if (positionFromTop - windowHeight <= -150 ) {
+            if (positionFromTop - windowHeight <= 200 ) {
                 element.classList.remove('hidden');
                 element.classList.add('zoomIn');
 
