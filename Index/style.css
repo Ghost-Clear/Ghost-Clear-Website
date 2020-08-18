@@ -181,35 +181,15 @@
 .chart-animate{
     animation: draw 1s ease-in-out;
 }
-#features{
-    position: relative;
-    margin-top: 4%;
-    height: 600px;
-    background: #2D424B;
-    border-radius: 20px;
-}
+
 #main-foot{
     background-color: #2D424B;
 }
 #cr{
     background-color: #1a262d;
 }
-#features-img{
-    width: 850px;
-    margin-left: 500px;
-    margin-top: 80px;
-}
-@keyframes fadeIn {
-    0% {
-        opacity: 0;
-    }
-    100% {
-        opacity: 1;
-    }
-}
-.feature-fadeIn{
-    animation: fadeIn 2s ease-in;
-}
+
+
 * {
     font-family: QuickSand, sans-serif;
 }

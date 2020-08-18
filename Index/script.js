@@ -3,7 +3,7 @@ var rellax = new Rellax('.rellax', {
 });
 $(".animated.text").addClass("hidden");
 $(".chart span").addClass("hidden");
-$("#row-1, #row-2").addClass("hidden");
+$("#features").addClass("hidden");
 function animateOnScrollTextLeft(){
     var elements;
     var windowHeight;
@@ -99,7 +99,7 @@ animateOnScrollTextRight();
     var windowHeight1;
 
     function init() {
-        elements1 = document.querySelectorAll('#row-1');
+        elements1 = document.querySelectorAll('#features');
 
         windowHeight1 = window.innerHeight;
     }
@@ -112,7 +112,7 @@ animateOnScrollTextRight();
             if (positionFromTop2 - windowHeight1 <= 0 ) {
                 element2.classList.remove('hidden');
                 element2.classList.add('animate__animated');
-                element2.classList.add('animate__fadeInUp');
+                element2.classList.add('animate__zoomInUp');
 
             }
         }
@@ -124,33 +124,4 @@ animateOnScrollTextRight();
     init();
     checkPosition();
 })();
-(function() {
-    var elements1;
-    var windowHeight1;
 
-    function init() {
-        elements1 = document.querySelectorAll('#row-2');
-
-        windowHeight1 = window.innerHeight;
-    }
-
-    function checkPosition() {
-        for (let i = 0; i < elements1.length; i++) {
-            let element2 = elements1[i];
-            let positionFromTop2 = elements1[i].getBoundingClientRect().top;
-
-            if (positionFromTop2 - windowHeight1 <= 0 ) {
-                element2.classList.remove('hidden');
-                element2.classList.add('animate__animated');
-                element2.classList.add('animate__fadeInUp');
-
-            }
-        }
-    }
-
-    window.addEventListener('scroll', checkPosition);
-    window.addEventListener('resize', init);
-
-    init();
-    checkPosition();
-})();
