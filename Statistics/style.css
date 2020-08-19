@@ -1,0 +1,266 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
+body{
+    font-family: QuickSand, sans-serif;
+}
+footer{
+    font-family: QuickSand, sans-serif;
+}
+#main-foot{
+    background-color: #2D424B;
+}
+.fa {
+    padding: 20px;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+}
+#insta{
+    margin: 10px;
+    font-size: 30px;
+    background: #ffffff;
+    padding: 15px;
+    color: black;
+}
+#git{
+    margin: 0;
+    font-size: 30px;
+    background: #000000;
+    padding: 15px;
+}
+
+.fa:hover{
+    opacity: 0.75;
+    box-shadow:  3px 4px #3b3b3b;
+}
+#fbook{
+    font-size: 25px;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+.nav-link{
+    font-family: QuickSand, sans-serif;
+    color: black;
+    font-size: 20px;
+}
+.nav-link:hover{
+    color: #3e3e3e;
+}
+.navbar{
+    background: white;
+}
+.navbar-brand img{
+    width: 300px;
+}
+.hidden{
+    opacity: 0;
+}
+#main-image{
+    padding-top: 100px;
+    background-color: #1a262d;
+    padding-bottom: 150px;
+}
+
+polyline {
+    stroke-dasharray: 1000;
+    stroke-dashoffset: 1000;
+    animation: dash 3s ease-out forwards;
+
+}
+#Banks{
+    stroke: url(#grad1)
+}
+
+@keyframes dash{
+    to {
+        stroke-dashoffset: 0;
+    }
+}
+
+@keyframes bake-pie {
+    from {
+        -webkit-transform: rotate(0deg) translate3d(0, 0, 0);
+        transform: rotate(0deg) translate3d(0, 0, 0);
+    }
+}
+.pie-chart--wrapper {
+    width: 400px;
+    text-align: center;
+}
+.pie-chart__pie {
+    display: inline-block;
+    vertical-align: top;
+}
+.pie-chart__pie {
+    position: relative;
+    height: 200px;
+    width: 200px;
+    margin: 10px auto 35px;
+}
+.pie-chart__pie::before {
+    content: "";
+    display: block;
+    position: absolute;
+    z-index: 1;
+    width: 100px;
+    height: 100px;
+    background: #1a262d;
+    border-radius: 50%;
+    top: 50px;
+    left: 50px;
+}
+.pie-chart__pie::after {
+    content: "";
+    display: block;
+    width: 120px;
+    height: 2px;
+    border-radius: 50%;
+    margin: 220px auto;
+}
+
+.slice {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    clip: rect(0px, 200px, 200px, 100px);
+    animation: bake-pie 1s;
+}
+.slice span {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: black;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    clip: rect(0px, 200px, 200px, 100px);
+}
+
+.pie-charts {
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    flex-direction: row;
+}
+
+.chart {
+    display: table;
+    table-layout: fixed;
+    width: 400px;
+    padding-top: 50px;
+}
+
+.chart li {
+    position: relative;
+    display: table-cell;
+    vertical-align: bottom;
+    height: 200px;
+}
+.chart span {
+    margin: 0 0;
+    display: block;
+    background: rgb(69, 255, 153);
+    width: 20px;
+    border-radius: 10px;
+}
+
+@keyframes draw {
+    0% {
+        height: 0;
+    }
+}
+.chart-animate{
+    animation: draw 1s ease-out;
+}
+
+@media (max-width: 500px) {
+    .pie-charts {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        flex-direction: column;
+    }
+}
+#chart-2{
+    transform: rotate(90deg);
+    padding-left: 175px;
+}
+
+.chart2 {
+    display: table;
+    table-layout: fixed;
+    width: 250px !important;
+}
+
+.chart2 li {
+    position: relative;
+    display: table-cell;
+    vertical-align: bottom;
+    height: 200px;
+}
+.chart2 span {
+    margin: 0 0;
+    display: block;
+    background: rgb(238, 238, 238);
+    width: 20px;
+    border-radius: 10px;
+}
+.blurAnimate{
+    animation: ease-out 1.5s blurOut forwards;
+    animation-delay: 1.5s;
+}
+#main-title{
+    z-index: 10;
+}
+@keyframes blurOut {
+    0%{
+        filter: blur(0px) brightness(100%);
+    }
+    100%{
+        filter: blur(10px) brightness(40%);
+    }
+
+}
+@media (max-width: 767px) {
+    #chart-img{
+        padding-top: 0;
+    }
+    #line-container{
+        height: 245px;
+        justify-content: left !important;
+        text-align: left !important;
+    }
+    .wrapper{
+        padding-left: 50px;
+    }
+    #chart{
+        padding-left: 50px;
+    }
+}
+@media (min-width: 768px) and (max-width: 990px) {
+    #chart-img{
+        padding-top: 0;
+    }
+    .wrapper{
+        padding-left: 150px;
+    }
+    #chart{
+        padding-left: 150px;
+    }
+    #chart-2{
+        padding-left: 300px;
+    }
+}
+@media (min-width: 991px) and (max-width: 1199px) {
+    #chart-2{
+        padding-left: 140px;
+    }
+}
+@media (min-width: 1200px) {
+
+}

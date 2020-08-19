@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="style.css" type="text/css" rel="stylesheet"/>
+    <link rel="stylesheet" href="../modules/bootstrap.css">
+    <title>Statistics</title>
+    <script type="text/javascript" src="../modules/jquery-3.3.1.slim.js"></script>
+    <script type="text/javascript" src="../modules/jquery.js"></script>
+    <link rel="icon" href="../Index/Images/Ghost%20Clear%20Logo.png">
+</head>
+<body>
+    <nav class="navbar fixed-top navbar-expand-md">
+        <a class="navbar-brand" href="../index.html"><img src="../Index/Images/Logo.png"/></a>
+        <button class="navbar-toggler navbar-light" type="button" data-toggle="collapse" data-target="#main-navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="main-navigation">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="../Shop/shop.html">Shop</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../About/about.html">About</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="container-fluid text-center justify-content-center" id="main-image">
+        <div class="container text-center justify-content-center">
+            <div class="row justify-content-center">
+                <div class="blurAnimate col-lg-5 text-center justify-content-center" id="line-chart-container">
+                    <!-- Line Chart -->
+                    <svg id="line-container" class="container justify-content-center text-center" width="529px" height="286px" viewBox="30 27 529 286" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <defs>
+                            <linearGradient id="grad1">
+                                <stop offset="0" stop-color="rgb(10, 86, 48)"></stop>
+                                <stop offset="0.1" stop-color="rgb(112,216,162)"></stop>
+                                <stop offset="1" stop-color="rgb(28, 231, 132)"></stop>
+                            </linearGradient>
+                        </defs>
+                        <g id="graph-copy" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(30.000000, 27.000000)">
+                            <g id="GRAPHS" transform="translate(64.000000, 16.000000)" stroke-linecap="round" stroke-width="11" stroke-linejoin="round">
+                                <polyline id="Banks"  points="0 250 88.0438662 150 128.985782 175 150.170616 187 185 130 220.189573 170 270.947867 75 301.990521 110 346.009479 50 392.087202 80 429.952607 30"></polyline>
+                            </g>
+                        </g>
+                    </svg>
+                </div>
+                <div class="blurAnimate col-lg-5 text-center justify-content-center">
+                    <!-- Donut Chart -->
+                    <div class="wrapper">
+                        <div class="pie-charts">
+                            <div class="pieID--categories pie-chart--wrapper">
+                                <div class="pie-chart">
+                                    <div class="pie-chart__pie"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="main-title" class="animated fadeInUp delay-2s">
+                <h1 class="text-white">Statistics.</h1>
+                <h2 class="text-muted">It's all in the numbers.</h2>
+            </div>
+            <div class="row justify-content-center">
+                <div class="blurAnimate col-lg-5 text-center justify-content-center">
+                    <!-- Bar Chart -->
+                    <div id="chart">
+                        <ul class="chart" id="chart-img">
+                            <li>
+                                <span class="chart-animate" style="height:35%" title=""></span>
+                            </li>
+                            <li>
+                                <span class="chart-animate" style="height:70%" title=""></span>
+                            </li>
+                            <li>
+                                <span class="chart-animate" style="height:50%" title=""></span>
+                            </li>
+                            <li>
+                                <span class="chart-animate" style="height:15%" title=""></span>
+                            </li>
+                            <li>
+                                <span class="chart-animate" style="height:25%" title=""></span>
+                            </li>
+                            <li>
+                                <span class="chart-animate" style="height:10%" title=""></span>
+                            </li>
+                            <li>
+                                <span class="chart-animate" style="height:60%" title=""></span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="blurAnimate col-lg-5 text-center justify-content-center">
+                    <!-- Text Chart -->
+                    <div id="chart-2">
+                        <ul class="chart2" id="chart-img-2">
+                            <li>
+                                <span class="chart-animate" style="height:95%" title=""></span>
+                            </li>
+                            <li>
+                                <span class="chart-animate" style="height:80%" title=""></span>
+                            </li>
+                            <li>
+                                <span class="chart-animate" style="height:70%" title=""></span>
+                            </li>
+                            <li>
+                                <span class="chart-animate" style="height:88%" title=""></span>
+                            </li>
+                            <li>
+                                <span class="chart-animate" style="height:82%" title=""></span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid bg-white justify-content-center text-center">
+        <div class="container justify-content-center text-center" id="main-text">
+            <div class="row featurette">
+                <div class="col-md-7">
+                    <h2 class="featurette-heading">Timed Workout. <span class="text-muted">Endurance is key.</span></h2>
+                    <p class="lead">In this workout, you can choose the number of sets you want to do, how long each set will last, and the amount of rest in between sets.
+                        The goal in this workout is to do the maximum amount of ghosts in the time you choose per set.</p>
+                </div>
+                <div class="col-md-5  text-center justify-content-center">
+                    <img id="timed" src="Images/iphoneTimeWorkout.png" class="featurette-image img-fluid mx-auto animated image"  width="300" height="500" role="img" ><rect width="100%" height="100%" fill="#eee"></rect>
+                </div>
+            </div>
+            <hr class="featurette-divider">
+            <div class="row featurette">
+                <div class="col-md-7 order-md-2">
+                    <h2 class="featurette-heading">Number Workout. <span class="text-muted">Go as fast as you can.</span></h2>
+                    <p class="lead">In a number workout, you can choose the number of sets you want to do and how many ghosts you want to complete per set. You can also choose the rest in between sets.
+                        The goal in this workout is to complete the number of ghosts you chose in as less time as possible.</p>
+                </div>
+                <div class="col-md-5 order-md-1  text-center justify-content-center">
+                    <img id="number" src="Images/iphoneNumberWorkout.png" class="featurette-image img-fluid mx-auto animated image"  width="300" height="500" role="img" ><rect width="100%" height="100%" fill="#eee"></rect>
+                </div>
+            </div>
+            <hr class="featurette-divider">
+            <div class="row featurette">
+                <div class="col-md-7">
+                    <h2 class="featurette-heading">Beep Test. <span class="text-muted">Not your ordinary beep test.</span></h2>
+                    <p class="lead">This beep test workout isn't like a normal beep test. Instead of running up and down, you would need to ghost 6 times. As you continue, the time you get per 6 ghosts slowly decreases.
+                        At the end of the workout, you will receive a score based on the number of ghosts you have completed.</p>
+                </div>
+                <div class="col-md-5  text-center justify-content-center">
+                    <img id="beep" src="Images/iphoneBeepTest.png" class="featurette-image img-fluid mx-auto animated image"  width="300" height="500" role="img" ><rect width="100%" height="100%" fill="#eee"></rect>
+                </div>
+            </div>
+            <hr class="featurette-divider">
+            <div class="row featurette">
+                <div class="col-md-7 order-md-2">
+                    <h2 class="featurette-heading">Play a Pro. <span class="text-muted">Play at the highest level.</span></h2>
+                    <p class="lead">In this workout, you get to choose a professional match and a professional player you would like to play as. These matches have actually been played before and the movements of the players have been recorded.
+                        The workout has 4 levels - Easy, Medium, Hard, and Pro and there is a 90 second break between each game.</p>
+                </div>
+                <div class="col-md-5 order-md-1 text-center justify-content-center">
+                    <img id="pro" src="Images/iphonePlayPro.png" class="featurette-image img-fluid mx-auto animated image"  width="300" height="500" role="img" ><rect width="100%" height="100%" fill="#eee"></rect>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+<footer class="page-footer font-small" id="main-foot">
+
+    <!-- Footer Links -->
+    <div class="container text-center text-md-left">
+
+        <!-- Grid row -->
+        <div class="row">
+
+            <!-- Grid column -->
+            <div class="col-md-4 col-lg-3 mr-auto my-md-4 my-0 mt-4 mb-1">
+
+                <!-- Content -->
+                <h5 class="font-weight-bold text-uppercase mb-4">Mission</h5>
+                <br>
+                <p>We help squash athletes by integrating technology with squash to help their training experience.</p>
+
+
+            </div>
+            <!-- Grid column -->
+
+            <hr class="clearfix w-100 d-md-none">
+
+            <!-- Grid column -->
+            <div class="col-md-2 col-lg-2 mx-auto my-md-4 my-0 mt-4 mb-1">
+
+                <!-- Links -->
+                <h5 class="font-weight-bold text-uppercase mb-4">Pages</h5>
+
+                <ul class="list-unstyled">
+                    <li>
+                        <p>
+                            <a href="../Shop/shop.html">Shop</a>
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            <a href="../About/about.html">About</a>
+                        </p>
+                    </li>
+                </ul>
+
+            </div>
+            <!-- Grid column -->
+
+            <hr class="clearfix w-100 d-md-none">
+
+            <!-- Grid column -->
+            <div class="col-md-4 col-lg-3 mx-auto my-md-4 my-0 mt-4 mb-1">
+
+                <!-- Contact details -->
+                <h5 class="font-weight-bold text-uppercase mb-4">Contact</h5>
+
+                <ul class="list-unstyled">
+
+                    <li>
+                        <p>
+                            <i class="fas fa-envelope mr-3"></i> contact@ghostclear.com</p>
+                    </li>
+                    <li>
+                        <p>
+                            <i class="fas fa-phone mr-3"></i> +1 408 680 9552</p>
+                    </li>
+                </ul>
+
+            </div>
+            <hr class="clearfix w-100 d-md-none">
+            <div class="col-md-2 col-lg-2 text-center mx-auto my-4">
+                <h5 class="font-weight-bold text-uppercase mb-4">Follow Us</h5>
+                <a href="https://facebook.com/ghostclear" id="fbook" class="fa fa-facebook"></a>
+                <a href="https://instagram.com/ghostclear"  id="insta" class="fa fa-instagram"></a>
+                <a href="https://github.com/varunchitturi/Ghosting-Connector"  id="git" class="fa fa-github"></a>
+            </div>
+        </div>
+    </div>
+
+    <div id="cr" class="footer-copyright text-center py-3"> 2020 © Copyright:
+        <p>Squash Dev LLC</p>
+    </div>
+
+</footer>
+
+<link
+        rel="stylesheet"
+        type="text/css"
+        href="../modules/animate.css"
+/>
+
+
+<link rel="stylesheet" href="../modules/all.min.css">
+<link rel="stylesheet" type="text/css" href="../modules/font-awesome.css">
+<script src="../modules/jquery.js"></script>
+<script type="text/javascript" src="../node_modules/rellax/rellax.js"></script>
+<script type="text/javascript" src="script.js"></script>
+<link href="../modules/bootstrap.css" type="text/css" rel="stylesheet">
+<script type="text/javascript" src="../modules/mdbootstrap.js"></script>
+<script type="text/javascript" src="../modules/jquery-3.3.1.slim.js"></script>
+<script type="text/javascript" src="../modules/jquery.js"></script>
+<script type="text/javascript" src="../modules/bootstrap.js"></script>
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/css/mdb.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+
+
+</html>
