@@ -40,10 +40,9 @@ function createPie(id) {
     dataElement   = id + " .pie-chart__legend"
 
     color         = [
-        "rgb(52,229,141)",
-        "rgb(243,57,84)"
+        "#21cd85",
+        "#adb1ff"
     ];
-
     listData = [768,232];
     listTotal = 1000;
     for(i=0; i < listData.length; i++) {
@@ -60,3 +59,65 @@ function createPieCharts() {
 }
 
 createPieCharts();
+
+
+
+$("#weekly, #composition, #beep, #text").addClass("hidden");
+(function() {
+    var elements1;
+    var windowHeight1;
+
+    function init() {
+        elements1 = document.querySelectorAll('#weekly, #composition');
+
+        windowHeight1 = window.innerHeight;
+    }
+
+    function checkPosition() {
+        for (let i = 0; i < elements1.length; i++) {
+            let element2 = elements1[i];
+            let positionFromTop2 = elements1[i].getBoundingClientRect().top;
+
+            if (positionFromTop2 - windowHeight1 <= -150 ) {
+                element2.classList.remove('hidden');
+                element2.classList.add('animate__animated');
+                element2.classList.add('animate__fadeInRight');
+            }
+        }
+    }
+
+    window.addEventListener('scroll', checkPosition);
+    window.addEventListener('resize', init);
+
+    init();
+    checkPosition();
+})();
+(function() {
+    var elements1;
+    var windowHeight1;
+
+    function init() {
+        elements1 = document.querySelectorAll('#beep, #text');
+
+        windowHeight1 = window.innerHeight;
+    }
+
+    function checkPosition() {
+        for (let i = 0; i < elements1.length; i++) {
+            let element2 = elements1[i];
+            let positionFromTop2 = elements1[i].getBoundingClientRect().top;
+
+            if (positionFromTop2 - windowHeight1 <= -150 ) {
+                element2.classList.remove('hidden');
+                element2.classList.add('animate__animated');
+                element2.classList.add('animate__fadeInLeft');
+            }
+        }
+    }
+
+    window.addEventListener('scroll', checkPosition);
+    window.addEventListener('resize', init);
+
+    init();
+    checkPosition();
+})();

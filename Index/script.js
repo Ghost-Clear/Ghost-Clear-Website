@@ -112,7 +112,7 @@ animateOnScrollTextRight();
             if (positionFromTop2 - windowHeight1 <= 0 ) {
                 element2.classList.remove('hidden');
                 element2.classList.add('animate__animated');
-                element2.classList.add('animate__zoomInUp');
+                element2.classList.add('animate__fadeIn');
 
             }
         }

@@ -134,7 +134,7 @@ polyline {
     position: absolute;
     top: 0;
     left: 0;
-    background-color: black;
+    background: black;
     width: 200px;
     height: 200px;
     border-radius: 50%;
@@ -165,7 +165,7 @@ polyline {
 .chart span {
     margin: 0 0;
     display: block;
-    background: rgb(69, 255, 153);
+    background: linear-gradient(#21cd85, #9198e5);
     width: 20px;
     border-radius: 10px;
 }
@@ -206,7 +206,7 @@ polyline {
 .chart2 span {
     margin: 0 0;
     display: block;
-    background: rgb(238, 238, 238);
+    background: linear-gradient(#21cd85, #9198e5);
     width: 20px;
     border-radius: 10px;
 }
@@ -226,6 +226,9 @@ polyline {
     }
 
 }
+#main-text{
+    padding-top: 150px;
+}
 @media (max-width: 767px) {
     #chart-img{
         padding-top: 0;
@@ -239,6 +242,9 @@ polyline {
         padding-left: 50px;
     }
     #chart{
+        padding-left: 50px;
+    }
+    #weekly, #text, #beep, #composition{
         padding-left: 50px;
     }
 }
