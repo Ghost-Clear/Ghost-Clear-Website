@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
+body{
+    font-family: QuickSand, sans-serif;
+}
+footer{
+    font-family: QuickSand, sans-serif;
+}
+#main-foot{
+    background-color: #2D424B;
+}
+.fa {
+    padding: 20px;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+}
+#insta{
+    margin: 10px;
+    font-size: 30px;
+    background: #ffffff;
+    padding: 15px;
+    color: black;
+}
+#git{
+    margin: 0;
+    font-size: 30px;
+    background: #000000;
+    padding: 15px;
+}
+
+.fa:hover{
+    opacity: 0.75;
+    box-shadow:  3px 4px #3b3b3b;
+}
+#fbook{
+    font-size: 25px;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+.nav-link{
+    font-family: QuickSand, sans-serif;
+    color: black;
+    font-size: 20px;
+}
+.nav-link:hover{
+    color: #3e3e3e;
+}
+.navbar{
+    background: white;
+}
+.navbar-brand img{
+    width: 300px;
+}
+.hidden{
+    opacity: 0;
+}
+#main-text{
+    padding-top: 150px;
+}
+#main-image{
+    padding-top: 100px;
+    background-color: #1a262d;
+
+
+}
+@keyframes blurOut {
+    0%{
+        filter: blur(0px);
+    }
+    100%{
+        filter: blur(20px);
+    }
+}
+.blurOutAnimate{
+    animation: 1s forwards ease-out blurOut;
+}
+.hidden{
+    opacity: 0;
+}
