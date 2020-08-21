@@ -1,3 +1,19 @@
+var rellax = new Rellax('.rellax');
+
+var x = window.matchMedia("(min-width: 992px)");
+
+function parallax(x) {
+    x = window.matchMedia("(min-width: 992px)");
+    if (x.matches) {
+        rellax.refresh()
+    }
+    else{
+        rellax.destroy();
+    }
+}
+parallax(x)
+window.addEventListener("resize",parallax);
+x.addEventListener("resize",parallax);
 $("#timed, #beep, #pro, #number").addClass("hidden");
 (function() {
     var elements1;
