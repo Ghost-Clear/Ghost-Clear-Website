@@ -1,4 +1,4 @@
-
+var y = window.matchMedia("(max-width: 991px)");
 let animation = lottie.loadAnimation({
     container: document.getElementById("device-animation"),
     renderer: 'svg',
@@ -51,10 +51,16 @@ function start1(){
             let element2 = elements1[i];
             let positionFromTop2 = elements1[i].getBoundingClientRect().top;
 
-            if (positionFromTop2 - windowHeight1 <= -150 ) {
+            if (positionFromTop2 - windowHeight1 <= -280 ) {
                 element2.classList.remove('hidden');
                 element2.classList.add('animate__animated');
-                element2.classList.add('animate__fadeInRight');
+                if(y.matches){
+                    element2.classList.add('animate__fadeIn');
+                }
+                else{
+                    element2.classList.add('animate__fadeInRight');
+                }
+
             }
         }
     }
@@ -81,10 +87,16 @@ function start2(){
             let element2 = elements1[i];
             let positionFromTop2 = elements1[i].getBoundingClientRect().top;
 
-            if (positionFromTop2 - windowHeight1 <= -150 ) {
+            if (positionFromTop2 - windowHeight1 <= -280 ) {
                 element2.classList.remove('hidden');
                 element2.classList.add('animate__animated');
-                element2.classList.add('animate__fadeInLeft');
+                if(y.matches){
+                    element2.classList.add('animate__fadeIn');
+                }
+                else{
+                    element2.classList.add('animate__fadeInLeft');
+                }
+
             }
         }
     }

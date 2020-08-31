@@ -1,7 +1,7 @@
 var rellax = new Rellax('.rellax');
 
 var x = window.matchMedia("(min-width: 992px)");
-
+var y = window.matchMedia("(max-width: 991px)");
 function parallax(x) {
     x = window.matchMedia("(min-width: 992px)");
     if (x.matches) {
@@ -20,7 +20,7 @@ $("#timed, #beep, #pro, #number").addClass("hidden");
     var windowHeight1;
 
     function init() {
-        elements1 = document.querySelectorAll('#timed, #beep');
+        elements1 = document.querySelectorAll('#timed, #beep, #workout-1, #workout-2, #workout-3, #workout-4');
 
         windowHeight1 = window.innerHeight;
     }
@@ -33,7 +33,16 @@ $("#timed, #beep, #pro, #number").addClass("hidden");
             if (positionFromTop2 - windowHeight1 <= -150 ) {
                 element2.classList.remove('hidden');
                 element2.classList.add('animate__animated');
-                element2.classList.add('animate__fadeInRight');
+                if(y.matches){
+                    element2.classList.add('animate__fadeIn');
+                    $('#workout-1').removeClass('delay1');
+                    $('#workout-2').removeClass('delay2');
+                    $('#workout-3').removeClass('delay3');
+                    $('#workout-4').removeClass('delay4');
+                }
+                else {
+                    element2.classList.add('animate__fadeInRight');
+                }
             }
         }
     }
@@ -62,7 +71,12 @@ $("#timed, #beep, #pro, #number").addClass("hidden");
             if (positionFromTop2 - windowHeight1 <= -150 ) {
                 element2.classList.remove('hidden');
                 element2.classList.add('animate__animated');
-                element2.classList.add('animate__fadeInLeft');
+                if(y.matches){
+                    element2.classList.add('animate__fadeIn');
+                }
+                else {
+                    element2.classList.add('animate__fadeInLeft');
+                }
             }
         }
     }

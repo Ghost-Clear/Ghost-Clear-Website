@@ -1,7 +1,7 @@
 function sliceSize(dataNum, dataTotal) {
     return (dataNum / dataTotal) * 360;
 }
-
+var y = window.matchMedia("(max-width: 991px)");
 function addSlice(id, sliceSize, pieElement, offset, sliceID, color) {
     $(pieElement).append("<div class='slice "+ sliceID + "'><span></span></div>");
     var offset = offset - 1;
@@ -81,7 +81,13 @@ $("#weekly, #composition, #beep, #text").addClass("hidden");
             if (positionFromTop2 - windowHeight1 <= -150 ) {
                 element2.classList.remove('hidden');
                 element2.classList.add('animate__animated');
-                element2.classList.add('animate__fadeInRight');
+                if(y.matches){
+                    element2.classList.add('animate__fadeIn');
+                }
+                else{
+                    element2.classList.add('animate__fadeInRight');
+                }
+
             }
         }
     }
@@ -110,7 +116,14 @@ $("#weekly, #composition, #beep, #text").addClass("hidden");
             if (positionFromTop2 - windowHeight1 <= -150 ) {
                 element2.classList.remove('hidden');
                 element2.classList.add('animate__animated');
-                element2.classList.add('animate__fadeInLeft');
+                if(y.matches){
+                    element2.classList.add('animate__fadeIn');
+                }
+                else{
+                    element2.classList.add('animate__fadeInLeft');
+                }
+
+
             }
         }
     }

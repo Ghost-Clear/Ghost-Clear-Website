@@ -9,7 +9,7 @@ function animateOnScrollTextLeft(){
     var windowHeight;
 
     function init() {
-        elements = document.querySelectorAll('#t1, #t3, #t5 ');
+        elements = document.querySelectorAll('#t1, #t3, #t5');
         windowHeight = window.innerHeight;
     }
 
@@ -18,9 +18,9 @@ function animateOnScrollTextLeft(){
             let element = elements[i];
             let positionFromTop = elements[i].getBoundingClientRect().top;
 
-            if (positionFromTop - windowHeight <= 200 ) {
+            if (positionFromTop - windowHeight <= -200 ) {
                 element.classList.remove('hidden');
-                element.classList.add('zoomIn');
+                element.classList.add('fade');
 
             }
 
@@ -49,9 +49,9 @@ function animateOnScrollTextRight(){
             let element = elements[i];
             let positionFromTop = elements[i].getBoundingClientRect().top;
 
-            if (positionFromTop - windowHeight <= -150 ) {
+            if (positionFromTop - windowHeight <= -200 ) {
                 element.classList.remove('hidden');
-                element.classList.add('zoomIn');
+                element.classList.add('fade');
 
             }
 
