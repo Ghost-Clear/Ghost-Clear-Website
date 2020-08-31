@@ -69,6 +69,9 @@ polyline {
     stroke-dasharray: 1000;
     stroke-dashoffset: 1000;
     animation: dash 3s ease-out forwards;
+    -webkit-animation: dash 3s ease-out forwards;
+    -o-animation: dash 3s ease-out forwards;
+    -moz-animation:  dash 3s ease-out forwards;
 
 }
 #Banks{
@@ -128,6 +131,9 @@ polyline {
     height: 200px;
     clip: rect(0px, 200px, 200px, 100px);
     animation: bake-pie 1s;
+    -moz-animation: bake-pie 1s;
+    -o-animation: bake-pie 1s;
+    -webkit-animation: bake-pie 1s;
 }
 .slice span {
     display: block;
@@ -177,6 +183,9 @@ polyline {
 }
 .chart-animate{
     animation: draw 1s ease-out;
+    -o-animation: draw 1s ease-out;
+    -webkit-animation: draw 1s ease-out;
+    -moz-animation: draw 1s ease-out;
 }
 
 @media (max-width: 500px) {
@@ -213,6 +222,12 @@ polyline {
 .blurAnimate{
     animation: ease-out 1.5s blurOut forwards;
     animation-delay: 1.5s;
+    -webkit-animation: ease-out 1.5s blurOut forwards;
+    -o-animation: ease-out 1.5s blurOut forwards;
+    -moz-animation: ease-out 1.5s blurOut forwards;
+    -webkit-animation-delay: 1.5s;
+    -o-animation-delay: 1.5s;
+    -moz-animation-delay: 1.5s;
 }
 #main-title{
     z-index: 10;

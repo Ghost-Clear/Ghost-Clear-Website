@@ -78,6 +78,9 @@ footer{
 }
 .blurOutAnimate{
     animation: 1s forwards ease-out blurOut;
+    -webkit-animation: 1s forwards ease-out blurOut;
+    -moz-animation: 1s forwards ease-out blurOut;
+    -o-animation: 1s forwards ease-out blurOut;
 }
 .hidden{
     opacity: 0;

@@ -180,6 +180,9 @@
 }
 .chart-animate{
     animation: draw 1s ease-in-out;
+    -webkit-animation: draw 1s ease-in-out;
+    -o-animation: draw 1s ease-in-out;
+    -moz-animation: draw 1s ease-in-out;
 }
 
 #main-foot{

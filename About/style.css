@@ -71,6 +71,9 @@ section {
 .liftUp{
 
     animation: ease-in 1s lift;
+    -webkit-animation:  ease-in 1s lift;
+    -o-animation:  ease-in 1s lift;
+    -moz-animation:  ease-in 1s lift;
 }
 @keyframes lift{
     0%{
@@ -99,6 +102,9 @@ section {
     padding-top: 200px;
     padding-bottom: 200px;
     animation: linear 0.7s blurIn;
+    -webkit-animation: linear 0.7s blurIn;
+    -o-animation: linear 0.7s blurIn;
+    -moz-animation: linear 0.7s blurIn;
 }
 .nav-link{
     font-family: QuickSand, sans-serif;
