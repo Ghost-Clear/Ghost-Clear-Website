@@ -1,6 +1,7 @@
 var rellax = new Rellax('.rellax', {
     breakpoints:[768, 992, 1201]
 });
+var y = window.matchMedia("(max-width: 991px)");
 $(".animated.text").addClass("hidden");
 $(".chart span").addClass("hidden");
 $("#features").addClass("hidden");
@@ -20,8 +21,14 @@ function animateOnScrollTextLeft(){
 
             if (positionFromTop - windowHeight <= -200 ) {
                 element.classList.remove('hidden');
-                element.classList.add('fade');
-
+                if(!y.matches){
+                    element.classList.add('fade');
+                }
+            }
+            else{
+                if(y.matches){
+                    element.classList.remove('hidden');
+                }
             }
 
         }
@@ -51,8 +58,15 @@ function animateOnScrollTextRight(){
 
             if (positionFromTop - windowHeight <= -200 ) {
                 element.classList.remove('hidden');
-                element.classList.add('fade');
+                if(!y.matches){
+                    element.classList.add('fade');
+                }
 
+            }
+            else{
+                if(y.matches){
+                    element.classList.remove('hidden');
+                }
             }
 
         }
