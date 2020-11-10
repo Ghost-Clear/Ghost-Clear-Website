@@ -3118,7 +3118,7 @@
                     return ( this[ 0 ] && this[ 0 ].parentNode ) ? this.first().prevAll().length : -1;
                 }
 
-                // Index in selector
+                // Index-v1 in selector
                 if ( typeof elem === "string" ) {
                     return indexOf.call( jQuery( elem ), this[ 0 ] );
                 }
@@ -3289,7 +3289,7 @@
                 // Queue of execution data for repeatable lists
                 queue = [],
 
-                // Index of currently firing callback (modified by add/remove as needed)
+                // Index-v1 of currently firing callback (modified by add/remove as needed)
                 firingIndex = -1,
 
                 // Fire callbacks
