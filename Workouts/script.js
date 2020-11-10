@@ -1,7 +1,5 @@
+/*
 var rellax = new Rellax('.rellax');
-
-var x = window.matchMedia("(min-width: 992px)");
-var y = window.matchMedia("(max-width: 991px)");
 function parallax(x) {
     x = window.matchMedia("(min-width: 992px)");
     if (x.matches) {
@@ -14,6 +12,11 @@ function parallax(x) {
 parallax(x)
 window.addEventListener("resize",parallax);
 x.addEventListener("resize",parallax);
+(/
+ */
+
+var x = window.matchMedia("(min-width: 992px)");
+var y = window.matchMedia("(max-width: 991px)");
 $("#timed, #beep, #pro, #number").addClass("hidden");
 (function() {
     var elements1;
@@ -41,7 +44,7 @@ $("#timed, #beep, #pro, #number").addClass("hidden");
                     $('#workout-4').removeClass('delay4');
                 }
                 else {
-                    element2.classList.add('animate__fadeInRight');
+                    element2.classList.add('animate__fadeIn');
                 }
             }
         }
@@ -75,7 +78,7 @@ $("#timed, #beep, #pro, #number").addClass("hidden");
                     element2.classList.add('animate__fadeIn');
                 }
                 else {
-                    element2.classList.add('animate__fadeInLeft');
+                    element2.classList.add('animate__fadeIn');
                 }
             }
         }

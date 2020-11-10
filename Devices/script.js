@@ -58,7 +58,7 @@ function start1(){
                     element2.classList.add('animate__fadeIn');
                 }
                 else{
-                    element2.classList.add('animate__fadeInRight');
+                    element2.classList.add('animate__fadeIn');
                 }
 
             }
@@ -94,7 +94,7 @@ function start2(){
                     element2.classList.add('animate__fadeIn');
                 }
                 else{
-                    element2.classList.add('animate__fadeInLeft');
+                    element2.classList.add('animate__fadeIn');
                 }
 
             }

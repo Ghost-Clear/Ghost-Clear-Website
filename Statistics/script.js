@@ -85,7 +85,7 @@ $("#weekly, #composition, #beep, #text").addClass("hidden");
                     element2.classList.add('animate__fadeIn');
                 }
                 else{
-                    element2.classList.add('animate__fadeInRight');
+                    element2.classList.add('animate__fadeIn');
                 }
 
             }
@@ -120,7 +120,7 @@ $("#weekly, #composition, #beep, #text").addClass("hidden");
                     element2.classList.add('animate__fadeIn');
                 }
                 else{
-                    element2.classList.add('animate__fadeInLeft');
+                    element2.classList.add('animate__fadeIn');
                 }
 
 
