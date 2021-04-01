@@ -16,7 +16,7 @@ x.addEventListener("resize",parallax);
  */
 
 var x = window.matchMedia("(min-width: 992px)");
-var y = window.matchMedia("(max-width: 991px)");
+var y = window.matchMedia("(max-width: 991px)");p
 $("#timed, #beep, #pro, #number").addClass("hidden");
 (function() {
     var elements1;
