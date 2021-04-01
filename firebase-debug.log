@@ -1,13 +1,13 @@
-[debug] [2021-04-01T07:02:49.536Z] ----------------------------------------------------------------------
-[debug] [2021-04-01T07:02:49.537Z] Command:       /usr/local/Cellar/node/15.11.0/bin/node /usr/local/bin/firebase init hosting:github
-[debug] [2021-04-01T07:02:49.538Z] CLI Version:   9.5.0
-[debug] [2021-04-01T07:02:49.538Z] Platform:      darwin
-[debug] [2021-04-01T07:02:49.538Z] Node Version:  v15.11.0
-[debug] [2021-04-01T07:02:49.538Z] Time:          Thu Apr 01 2021 00:02:49 GMT-0700 (Pacific Daylight Time)
-[debug] [2021-04-01T07:02:49.539Z] ----------------------------------------------------------------------
-[debug] [2021-04-01T07:02:49.539Z] 
-[debug] [2021-04-01T07:02:49.542Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
-[debug] [2021-04-01T07:02:49.542Z] > authorizing via signed-in user
+[debug] [2021-04-01T07:19:56.498Z] ----------------------------------------------------------------------
+[debug] [2021-04-01T07:19:56.499Z] Command:       /usr/local/Cellar/node/15.11.0/bin/node /usr/local/bin/firebase init hosting:github
+[debug] [2021-04-01T07:19:56.500Z] CLI Version:   9.5.0
+[debug] [2021-04-01T07:19:56.500Z] Platform:      darwin
+[debug] [2021-04-01T07:19:56.500Z] Node Version:  v15.11.0
+[debug] [2021-04-01T07:19:56.500Z] Time:          Thu Apr 01 2021 00:19:56 GMT-0700 (Pacific Daylight Time)
+[debug] [2021-04-01T07:19:56.501Z] ----------------------------------------------------------------------
+[debug] [2021-04-01T07:19:56.501Z] 
+[debug] [2021-04-01T07:19:56.504Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-04-01T07:19:56.504Z] > authorizing via signed-in user
 [info] 
      ######## #### ########  ######## ########     ###     ######  ########
      ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
@@ -31,13 +31,13 @@ Before we get started, keep in mind:
 [info] but for now we'll just set up a default project.
 [info] 
 [info] i  .firebaserc already has a default project, using ghost-clear. 
-[debug] [2021-04-01T07:02:49.547Z] > refreshing access token with scopes: []
-[debug] [2021-04-01T07:02:49.547Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+[debug] [2021-04-01T07:19:56.509Z] > refreshing access token with scopes: []
+[debug] [2021-04-01T07:19:56.509Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
  <request body omitted>
-[debug] [2021-04-01T07:02:49.705Z] <<< HTTP RESPONSE 200 {"expires":"Mon, 01 Jan 1990 00:00:00 GMT","date":"Thu, 01 Apr 2021 07:02:49 GMT","cache-control":"no-cache, no-store, max-age=0, must-revalidate","pragma":"no-cache","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
-[debug] [2021-04-01T07:02:49.735Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/ghost-clear [none]
-[debug] [2021-04-01T07:02:49.926Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/ghost-clear 200
-[debug] [2021-04-01T07:02:49.927Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/ghost-clear {"projectId":"ghost-clear","projectNumber":"263744241940","displayName":"Ghost Clear","name":"projects/ghost-clear","resources":{"hostingSite":"ghost-clear"},"state":"ACTIVE"}
+[debug] [2021-04-01T07:19:56.666Z] <<< HTTP RESPONSE 200 {"expires":"Mon, 01 Jan 1990 00:00:00 GMT","pragma":"no-cache","date":"Thu, 01 Apr 2021 07:19:56 GMT","cache-control":"no-cache, no-store, max-age=0, must-revalidate","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-04-01T07:19:56.697Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/ghost-clear [none]
+[debug] [2021-04-01T07:19:56.881Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/ghost-clear 200
+[debug] [2021-04-01T07:19:56.881Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/ghost-clear {"projectId":"ghost-clear","projectNumber":"263744241940","displayName":"Ghost Clear","name":"projects/ghost-clear","resources":{"hostingSite":"ghost-clear"},"state":"ACTIVE"}
 [info] 
 === Hosting:github Setup
 [info] 
@@ -45,272 +45,42 @@ Before we get started, keep in mind:
 [info] i  Authorizing with GitHub to upload your service account to a GitHub repository's secrets store. 
 [info] 
 [info] Visit this URL on this device to log in:
-[info] https://github.com/login/oauth/authorize?client_id=89cf50f02ac6aaed3484&state=231064234&redirect_uri=http%3A%2F%2Flocalhost%3A9005&scope=read%3Auser%20repo%20public_repo
+[info] https://github.com/login/oauth/authorize?client_id=89cf50f02ac6aaed3484&state=968109681&redirect_uri=http%3A%2F%2Flocalhost%3A9005&scope=read%3Auser%20repo%20public_repo
 [info] 
 [info] Waiting for authentication...
-[debug] [2021-04-01T07:02:50.357Z] >>> HTTP REQUEST POST https://github.com/login/oauth/access_token  
- {"client_id":"89cf50f02ac6aaed3484","client_secret":"3330d14abc895d9a74d5f17cd7a00711fa2c5bf0","code":"f824f16197863fe45485","redirect_uri":"http://localhost:9005","state":"231064234"}
-[debug] [2021-04-01T07:02:50.617Z] <<< HTTP RESPONSE 200 {"server":"GitHub.com","date":"Thu, 01 Apr 2021 07:02:50 GMT","content-type":"application/json; charset=utf-8","transfer-encoding":"chunked","vary":"X-PJAX, Accept-Encoding, Accept, X-Requested-With","etag":"W/\"76faa68a7bcf07fa740d72f507b3a2f4\"","cache-control":"max-age=0, private, must-revalidate","strict-transport-security":"max-age=31536000; includeSubdomains; preload","x-frame-options":"deny","x-content-type-options":"nosniff","x-xss-protection":"0","referrer-policy":"origin-when-cross-origin, strict-origin-when-cross-origin","expect-ct":"max-age=2592000, report-uri=\"https://api.github.com/_private/browser/errors\"","content-security-policy":"default-src 'none'; base-uri 'self'; block-all-mixed-content; connect-src 'self' uploads.github.com www.githubstatus.com collector.githubapp.com api.github.com github-cloud.s3.amazonaws.com github-production-repository-file-5c1aeb.s3.amazonaws.com github-production-upload-manifest-file-7fdce7.s3.amazonaws.com github-production-user-asset-6210df.s3.amazonaws.com cdn.optimizely.com logx.optimizely.com/v1/events wss://alive.github.com; font-src github.githubassets.com; form-action 'self' github.com gist.github.com; frame-ancestors 'none'; frame-src render.githubusercontent.com; img-src 'self' data: github.githubassets.com identicons.github.com collector.githubapp.com github-cloud.s3.amazonaws.com secured-user-images.githubusercontent.com/ *.githubusercontent.com; manifest-src 'self'; media-src 'none'; script-src github.githubassets.com; style-src 'unsafe-inline' github.githubassets.com; worker-src github.com/socket-worker-3f088aa2.js gist.github.com/socket-worker-3f088aa2.js","x-github-request-id":"D0E4:7864:17E949:2E02AE:6065701A"}
-[debug] [2021-04-01T07:02:50.620Z] >>> [apiv2][query] GET https://api.github.com/user [none]
-[debug] [2021-04-01T07:02:50.924Z] <<< [apiv2][status] GET https://api.github.com/user 200
-[debug] [2021-04-01T07:02:50.925Z] <<< [apiv2][body] GET https://api.github.com/user {"login":"varunchitturi","id":27111183,"node_id":"MDQ6VXNlcjI3MTExMTgz","avatar_url":"https://avatars.githubusercontent.com/u/27111183?v=4","gravatar_id":"","url":"https://api.github.com/users/varunchitturi","html_url":"https://github.com/varunchitturi","followers_url":"https://api.github.com/users/varunchitturi/followers","following_url":"https://api.github.com/users/varunchitturi/following{/other_user}","gists_url":"https://api.github.com/users/varunchitturi/gists{/gist_id}","starred_url":"https://api.github.com/users/varunchitturi/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/varunchitturi/subscriptions","organizations_url":"https://api.github.com/users/varunchitturi/orgs","repos_url":"https://api.github.com/users/varunchitturi/repos","events_url":"https://api.github.com/users/varunchitturi/events{/privacy}","received_events_url":"https://api.github.com/users/varunchitturi/received_events","type":"User","site_admin":false,"name":"Varun Chitturi","company":"Squash Dev LLC","blog":"","location":"Fremont CA","email":"varunchitturi@icloud.com","hireable":null,"bio":"I currently attend Mission San Jose High School\r\n","twitter_username":null,"public_repos":8,"public_gists":0,"followers":8,"following":15,"created_at":"2017-04-09T01:42:27Z","updated_at":"2021-03-31T17:46:09Z","private_gists":0,"total_private_repos":1,"owned_private_repos":1,"disk_usage":59426,"collaborators":0,"two_factor_authentication":true,"plan":{"name":"pro","space":976562499,"collaborators":0,"private_repos":9999}}
+[debug] [2021-04-01T07:19:57.356Z] >>> HTTP REQUEST POST https://github.com/login/oauth/access_token  
+ {"client_id":"89cf50f02ac6aaed3484","client_secret":"3330d14abc895d9a74d5f17cd7a00711fa2c5bf0","code":"ea996575a61dd10dc078","redirect_uri":"http://localhost:9005","state":"968109681"}
+[debug] [2021-04-01T07:19:57.696Z] <<< HTTP RESPONSE 200 {"server":"GitHub.com","date":"Thu, 01 Apr 2021 07:19:57 GMT","content-type":"application/json; charset=utf-8","transfer-encoding":"chunked","vary":"X-PJAX, Accept-Encoding, Accept, X-Requested-With","etag":"W/\"3b193dbee9421b6d7dd8708f3500fb4b\"","cache-control":"max-age=0, private, must-revalidate","strict-transport-security":"max-age=31536000; includeSubdomains; preload","x-frame-options":"deny","x-content-type-options":"nosniff","x-xss-protection":"0","referrer-policy":"origin-when-cross-origin, strict-origin-when-cross-origin","expect-ct":"max-age=2592000, report-uri=\"https://api.github.com/_private/browser/errors\"","content-security-policy":"default-src 'none'; base-uri 'self'; block-all-mixed-content; connect-src 'self' uploads.github.com www.githubstatus.com collector.githubapp.com api.github.com github-cloud.s3.amazonaws.com github-production-repository-file-5c1aeb.s3.amazonaws.com github-production-upload-manifest-file-7fdce7.s3.amazonaws.com github-production-user-asset-6210df.s3.amazonaws.com cdn.optimizely.com logx.optimizely.com/v1/events wss://alive.github.com; font-src github.githubassets.com; form-action 'self' github.com gist.github.com; frame-ancestors 'none'; frame-src render.githubusercontent.com; img-src 'self' data: github.githubassets.com identicons.github.com collector.githubapp.com github-cloud.s3.amazonaws.com secured-user-images.githubusercontent.com/ *.githubusercontent.com; manifest-src 'self'; media-src 'none'; script-src github.githubassets.com; style-src 'unsafe-inline' github.githubassets.com; worker-src github.com/socket-worker-3f088aa2.js gist.github.com/socket-worker-3f088aa2.js","x-github-request-id":"D4AE:98EB:3CAE52:540EA6:6065741D"}
+[debug] [2021-04-01T07:19:57.698Z] >>> [apiv2][query] GET https://api.github.com/user [none]
+[debug] [2021-04-01T07:19:58.001Z] <<< [apiv2][status] GET https://api.github.com/user 200
+[debug] [2021-04-01T07:19:58.001Z] <<< [apiv2][body] GET https://api.github.com/user {"login":"varunchitturi","id":27111183,"node_id":"MDQ6VXNlcjI3MTExMTgz","avatar_url":"https://avatars.githubusercontent.com/u/27111183?v=4","gravatar_id":"","url":"https://api.github.com/users/varunchitturi","html_url":"https://github.com/varunchitturi","followers_url":"https://api.github.com/users/varunchitturi/followers","following_url":"https://api.github.com/users/varunchitturi/following{/other_user}","gists_url":"https://api.github.com/users/varunchitturi/gists{/gist_id}","starred_url":"https://api.github.com/users/varunchitturi/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/varunchitturi/subscriptions","organizations_url":"https://api.github.com/users/varunchitturi/orgs","repos_url":"https://api.github.com/users/varunchitturi/repos","events_url":"https://api.github.com/users/varunchitturi/events{/privacy}","received_events_url":"https://api.github.com/users/varunchitturi/received_events","type":"User","site_admin":false,"name":"Varun Chitturi","company":"Squash Dev LLC","blog":"","location":"Fremont CA","email":"varunchitturi@icloud.com","hireable":null,"bio":"I currently attend Mission San Jose High School\r\n","twitter_username":null,"public_repos":8,"public_gists":0,"followers":8,"following":15,"created_at":"2017-04-09T01:42:27Z","updated_at":"2021-04-01T07:07:48Z","private_gists":0,"total_private_repos":1,"owned_private_repos":1,"disk_usage":59426,"collaborators":0,"two_factor_authentication":true,"plan":{"name":"pro","space":976562499,"collaborators":0,"private_repos":9999}}
 [info] 
 [info] ✔  Success! Logged into GitHub as varunchitturi 
 [info] 
-[debug] [2021-04-01T07:03:22.583Z] >>> [apiv2][query] GET https://api.github.com/repos/Ghost-Clear/Ghost-Clear-Website/actions/secrets/public-key type=owner
-[debug] [2021-04-01T07:03:22.836Z] <<< [apiv2][status] GET https://api.github.com/repos/Ghost-Clear/Ghost-Clear-Website/actions/secrets/public-key 403
-[debug] [2021-04-01T07:03:22.836Z] <<< [apiv2][body] GET https://api.github.com/repos/Ghost-Clear/Ghost-Clear-Website/actions/secrets/public-key {"message":"Must have admin rights to Repository.","documentation_url":"https://docs.github.com/rest/reference/actions#get-a-repository-public-key"}
-[debug] [2021-04-01T07:03:29.859Z] >>> [apiv2][query] GET https://api.github.com/repos/Ghost-Clear/Ghost-Clear-Website/actions/secrets/public-key type=owner
-[debug] [2021-04-01T07:03:30.120Z] <<< [apiv2][status] GET https://api.github.com/repos/Ghost-Clear/Ghost-Clear-Website/actions/secrets/public-key 403
-[debug] [2021-04-01T07:03:30.120Z] <<< [apiv2][body] GET https://api.github.com/repos/Ghost-Clear/Ghost-Clear-Website/actions/secrets/public-key {"message":"Must have admin rights to Repository.","documentation_url":"https://docs.github.com/rest/reference/actions#get-a-repository-public-key"}
-[debug] [2021-04-01T07:03:31.863Z] >>> [apiv2][query] GET https://api.github.com/repos//actions/secrets/public-key type=owner
-[debug] [2021-04-01T07:03:32.084Z] <<< [apiv2][status] GET https://api.github.com/repos//actions/secrets/public-key 404
-[debug] [2021-04-01T07:03:32.084Z] <<< [apiv2][body] GET https://api.github.com/repos//actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
-[debug] [2021-04-01T07:03:32.852Z] >>> [apiv2][query] GET https://api.github.com/repos//actions/secrets/public-key type=owner
-[debug] [2021-04-01T07:03:33.089Z] <<< [apiv2][status] GET https://api.github.com/repos//actions/secrets/public-key 404
-[debug] [2021-04-01T07:03:33.089Z] <<< [apiv2][body] GET https://api.github.com/repos//actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
-[debug] [2021-04-01T07:04:02.238Z] >>> [apiv2][query] GET https://api.github.com/repos/varunchitturi/Ghost-Clear-Website/actions/secrets/public-key type=owner
-[debug] [2021-04-01T07:04:02.782Z] <<< [apiv2][status] GET https://api.github.com/repos/varunchitturi/Ghost-Clear-Website/actions/secrets/public-key 403
-[debug] [2021-04-01T07:04:02.782Z] <<< [apiv2][body] GET https://api.github.com/repos/varunchitturi/Ghost-Clear-Website/actions/secrets/public-key {"message":"Must have admin rights to Repository.","documentation_url":"https://docs.github.com/rest/reference/actions#get-a-repository-public-key"}
-[debug] [2021-04-01T07:04:15.691Z] >>> [apiv2][query] GET https://api.github.com/repos/varunchitturi/Ghost-Clear-Website/actions/secrets/public-key type=owner
-[debug] [2021-04-01T07:04:16.323Z] >>> [apiv2][query] GET https://api.github.com/repos//actions/secrets/public-key type=owner
-[debug] [2021-04-01T07:04:16.646Z] <<< [apiv2][status] GET https://api.github.com/repos/varunchitturi/Ghost-Clear-Website/actions/secrets/public-key 403
-[debug] [2021-04-01T07:04:16.647Z] <<< [apiv2][body] GET https://api.github.com/repos/varunchitturi/Ghost-Clear-Website/actions/secrets/public-key {"message":"Must have admin rights to Repository.","documentation_url":"https://docs.github.com/rest/reference/actions#get-a-repository-public-key"}
-[debug] [2021-04-01T07:04:16.655Z] <<< [apiv2][status] GET https://api.github.com/repos//actions/secrets/public-key 404
-[debug] [2021-04-01T07:04:16.655Z] <<< [apiv2][body] GET https://api.github.com/repos//actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
-[debug] [2021-04-01T07:04:23.291Z] ----------------------------------------------------------------------
-[debug] [2021-04-01T07:04:23.292Z] Command:       /usr/local/Cellar/node/15.11.0/bin/node /usr/local/bin/firebase init hosting:github
-[debug] [2021-04-01T07:04:23.293Z] CLI Version:   9.5.0
-[debug] [2021-04-01T07:04:23.293Z] Platform:      darwin
-[debug] [2021-04-01T07:04:23.293Z] Node Version:  v15.11.0
-[debug] [2021-04-01T07:04:23.293Z] Time:          Thu Apr 01 2021 00:04:23 GMT-0700 (Pacific Daylight Time)
-[debug] [2021-04-01T07:04:23.293Z] ----------------------------------------------------------------------
-[debug] [2021-04-01T07:04:23.294Z] 
-[debug] [2021-04-01T07:04:23.297Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
-[debug] [2021-04-01T07:04:23.297Z] > authorizing via signed-in user
-[info] 
-     ######## #### ########  ######## ########     ###     ######  ########
-     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
-     ######    ##  ########  ######   ########  #########  ######  ######
-     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
-     ##       #### ##     ## ######## ########  ##     ##  ######  ########
-
-You're about to initialize a Firebase project in this directory:
-
-  /Users/varunchitturi/Documents/Coding/Project_Development/Ghost Clear/Ghost Clear Website
-
-Before we get started, keep in mind:
-
-  * You are initializing in an existing Firebase project directory
-
-[info] 
-=== Project Setup
-[info] 
-[info] First, let's associate this project directory with a Firebase project.
-[info] You can create multiple project aliases by running firebase use --add, 
-[info] but for now we'll just set up a default project.
-[info] 
-[info] i  .firebaserc already has a default project, using ghost-clear. 
-[debug] [2021-04-01T07:04:23.302Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/ghost-clear [none]
-[debug] [2021-04-01T07:04:23.535Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/ghost-clear 200
-[debug] [2021-04-01T07:04:23.535Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/ghost-clear {"projectId":"ghost-clear","projectNumber":"263744241940","displayName":"Ghost Clear","name":"projects/ghost-clear","resources":{"hostingSite":"ghost-clear"},"state":"ACTIVE"}
-[info] 
-=== Hosting:github Setup
-[info] 
-[info] i  Detected a .git folder at /Users/varunchitturi/Documents/Coding/Project_Development/Ghost Clear/Ghost Clear Website 
-[info] i  Authorizing with GitHub to upload your service account to a GitHub repository's secrets store. 
-[info] 
-[info] Visit this URL on this device to log in:
-[info] https://github.com/login/oauth/authorize?client_id=89cf50f02ac6aaed3484&state=331644278&redirect_uri=http%3A%2F%2Flocalhost%3A9005&scope=read%3Auser%20repo%20public_repo
-[info] 
-[info] Waiting for authentication...
-[debug] [2021-04-01T07:04:23.970Z] >>> HTTP REQUEST POST https://github.com/login/oauth/access_token  
- {"client_id":"89cf50f02ac6aaed3484","client_secret":"3330d14abc895d9a74d5f17cd7a00711fa2c5bf0","code":"bac06948f403ba917ee9","redirect_uri":"http://localhost:9005","state":"331644278"}
-[debug] [2021-04-01T07:04:24.247Z] <<< HTTP RESPONSE 200 {"server":"GitHub.com","date":"Thu, 01 Apr 2021 07:04:24 GMT","content-type":"application/json; charset=utf-8","transfer-encoding":"chunked","vary":"X-PJAX, Accept-Encoding, Accept, X-Requested-With","etag":"W/\"b661f4c03150a5a963b44b257e7b89ba\"","cache-control":"max-age=0, private, must-revalidate","strict-transport-security":"max-age=31536000; includeSubdomains; preload","x-frame-options":"deny","x-content-type-options":"nosniff","x-xss-protection":"0","referrer-policy":"origin-when-cross-origin, strict-origin-when-cross-origin","expect-ct":"max-age=2592000, report-uri=\"https://api.github.com/_private/browser/errors\"","content-security-policy":"default-src 'none'; base-uri 'self'; block-all-mixed-content; connect-src 'self' uploads.github.com www.githubstatus.com collector.githubapp.com api.github.com github-cloud.s3.amazonaws.com github-production-repository-file-5c1aeb.s3.amazonaws.com github-production-upload-manifest-file-7fdce7.s3.amazonaws.com github-production-user-asset-6210df.s3.amazonaws.com cdn.optimizely.com logx.optimizely.com/v1/events wss://alive.github.com; font-src github.githubassets.com; form-action 'self' github.com gist.github.com; frame-ancestors 'none'; frame-src render.githubusercontent.com; img-src 'self' data: github.githubassets.com identicons.github.com collector.githubapp.com github-cloud.s3.amazonaws.com secured-user-images.githubusercontent.com/ *.githubusercontent.com; manifest-src 'self'; media-src 'none'; script-src github.githubassets.com; style-src 'unsafe-inline' github.githubassets.com; worker-src github.com/socket-worker-3f088aa2.js gist.github.com/socket-worker-3f088aa2.js","x-github-request-id":"D141:1202:169303:2AB4FE:60657078"}
-[debug] [2021-04-01T07:04:24.249Z] >>> [apiv2][query] GET https://api.github.com/user [none]
-[debug] [2021-04-01T07:04:24.530Z] <<< [apiv2][status] GET https://api.github.com/user 200
-[debug] [2021-04-01T07:04:24.530Z] <<< [apiv2][body] GET https://api.github.com/user {"login":"varunchitturi","id":27111183,"node_id":"MDQ6VXNlcjI3MTExMTgz","avatar_url":"https://avatars.githubusercontent.com/u/27111183?v=4","gravatar_id":"","url":"https://api.github.com/users/varunchitturi","html_url":"https://github.com/varunchitturi","followers_url":"https://api.github.com/users/varunchitturi/followers","following_url":"https://api.github.com/users/varunchitturi/following{/other_user}","gists_url":"https://api.github.com/users/varunchitturi/gists{/gist_id}","starred_url":"https://api.github.com/users/varunchitturi/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/varunchitturi/subscriptions","organizations_url":"https://api.github.com/users/varunchitturi/orgs","repos_url":"https://api.github.com/users/varunchitturi/repos","events_url":"https://api.github.com/users/varunchitturi/events{/privacy}","received_events_url":"https://api.github.com/users/varunchitturi/received_events","type":"User","site_admin":false,"name":"Varun Chitturi","company":"Squash Dev LLC","blog":"","location":"Fremont CA","email":"varunchitturi@icloud.com","hireable":null,"bio":"I currently attend Mission San Jose High School\r\n","twitter_username":null,"public_repos":8,"public_gists":0,"followers":8,"following":15,"created_at":"2017-04-09T01:42:27Z","updated_at":"2021-03-31T17:46:09Z","private_gists":0,"total_private_repos":1,"owned_private_repos":1,"disk_usage":59426,"collaborators":0,"two_factor_authentication":true,"plan":{"name":"pro","space":976562499,"collaborators":0,"private_repos":9999}}
-[info] 
-[info] ✔  Success! Logged into GitHub as varunchitturi 
-[info] 
-[debug] [2021-04-01T07:04:32.492Z] >>> [apiv2][query] GET https://api.github.com/repos/varunchitturi/Ghost-Clear-Website/actions/secrets/public-key type=owner
-[debug] [2021-04-01T07:04:32.991Z] <<< [apiv2][status] GET https://api.github.com/repos/varunchitturi/Ghost-Clear-Website/actions/secrets/public-key 403
-[debug] [2021-04-01T07:04:32.991Z] <<< [apiv2][body] GET https://api.github.com/repos/varunchitturi/Ghost-Clear-Website/actions/secrets/public-key {"message":"Must have admin rights to Repository.","documentation_url":"https://docs.github.com/rest/reference/actions#get-a-repository-public-key"}
-[debug] [2021-04-01T07:04:44.066Z] >>> [apiv2][query] GET https://api.github.com/repos/varunchitturi/Ghost-Clear-Website/actions/secrets/public-key type=owner
-[debug] [2021-04-01T07:04:44.579Z] <<< [apiv2][status] GET https://api.github.com/repos/varunchitturi/Ghost-Clear-Website/actions/secrets/public-key 403
-[debug] [2021-04-01T07:04:44.579Z] <<< [apiv2][body] GET https://api.github.com/repos/varunchitturi/Ghost-Clear-Website/actions/secrets/public-key {"message":"Must have admin rights to Repository.","documentation_url":"https://docs.github.com/rest/reference/actions#get-a-repository-public-key"}
-[debug] [2021-04-01T07:04:44.695Z] >>> [apiv2][query] GET https://api.github.com/repos/varunchitturi/Ghost-Clear-Website/actions/secrets/public-key type=owner
-[debug] [2021-04-01T07:04:45.194Z] <<< [apiv2][status] GET https://api.github.com/repos/varunchitturi/Ghost-Clear-Website/actions/secrets/public-key 403
-[debug] [2021-04-01T07:04:45.195Z] <<< [apiv2][body] GET https://api.github.com/repos/varunchitturi/Ghost-Clear-Website/actions/secrets/public-key {"message":"Must have admin rights to Repository.","documentation_url":"https://docs.github.com/rest/reference/actions#get-a-repository-public-key"}
-[debug] [2021-04-01T07:04:45.415Z] >>> [apiv2][query] GET https://api.github.com/repos/varunchitturi/Ghost-Clear-Website/actions/secrets/public-key type=owner
-[debug] [2021-04-01T07:04:45.876Z] >>> [apiv2][query] GET https://api.github.com/repos/varunchitturi/Ghost-Clear-Website/actions/secrets/public-key type=owner
-[debug] [2021-04-01T07:04:45.896Z] <<< [apiv2][status] GET https://api.github.com/repos/varunchitturi/Ghost-Clear-Website/actions/secrets/public-key 403
-[debug] [2021-04-01T07:04:45.897Z] <<< [apiv2][body] GET https://api.github.com/repos/varunchitturi/Ghost-Clear-Website/actions/secrets/public-key {"message":"Must have admin rights to Repository.","documentation_url":"https://docs.github.com/rest/reference/actions#get-a-repository-public-key"}
-[debug] [2021-04-01T07:04:46.364Z] <<< [apiv2][status] GET https://api.github.com/repos/varunchitturi/Ghost-Clear-Website/actions/secrets/public-key 403
-[debug] [2021-04-01T07:04:46.364Z] <<< [apiv2][body] GET https://api.github.com/repos/varunchitturi/Ghost-Clear-Website/actions/secrets/public-key {"message":"Must have admin rights to Repository.","documentation_url":"https://docs.github.com/rest/reference/actions#get-a-repository-public-key"}
-[debug] [2021-04-01T07:05:41.576Z] >>> [apiv2][query] GET https://api.github.com/repos/varunchitturi/Ghost-Clear-Website/actions/secrets/public-key type=owner
-[debug] [2021-04-01T07:05:42.096Z] <<< [apiv2][status] GET https://api.github.com/repos/varunchitturi/Ghost-Clear-Website/actions/secrets/public-key 403
-[debug] [2021-04-01T07:05:42.096Z] <<< [apiv2][body] GET https://api.github.com/repos/varunchitturi/Ghost-Clear-Website/actions/secrets/public-key {"message":"Must have admin rights to Repository.","documentation_url":"https://docs.github.com/rest/reference/actions#get-a-repository-public-key"}
-[debug] [2021-04-01T07:05:43.240Z] >>> [apiv2][query] GET https://api.github.com/repos//actions/secrets/public-key type=owner
-[debug] [2021-04-01T07:05:43.467Z] <<< [apiv2][status] GET https://api.github.com/repos//actions/secrets/public-key 404
-[debug] [2021-04-01T07:05:43.468Z] <<< [apiv2][body] GET https://api.github.com/repos//actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
-[debug] [2021-04-01T07:05:43.577Z] >>> [apiv2][query] GET https://api.github.com/repos//actions/secrets/public-key type=owner
-[debug] [2021-04-01T07:05:43.810Z] <<< [apiv2][status] GET https://api.github.com/repos//actions/secrets/public-key 404
-[debug] [2021-04-01T07:05:43.810Z] <<< [apiv2][body] GET https://api.github.com/repos//actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
-[debug] [2021-04-01T07:05:44.275Z] >>> [apiv2][query] GET https://api.github.com/repos//actions/secrets/public-key type=owner
-[debug] [2021-04-01T07:05:44.510Z] <<< [apiv2][status] GET https://api.github.com/repos//actions/secrets/public-key 404
-[debug] [2021-04-01T07:05:44.510Z] <<< [apiv2][body] GET https://api.github.com/repos//actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
-[debug] [2021-04-01T07:05:44.613Z] >>> [apiv2][query] GET https://api.github.com/repos//actions/secrets/public-key type=owner
-[debug] [2021-04-01T07:05:44.830Z] <<< [apiv2][status] GET https://api.github.com/repos//actions/secrets/public-key 404
-[debug] [2021-04-01T07:05:44.831Z] <<< [apiv2][body] GET https://api.github.com/repos//actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
-[debug] [2021-04-01T07:05:44.973Z] >>> [apiv2][query] GET https://api.github.com/repos//actions/secrets/public-key type=owner
-[debug] [2021-04-01T07:05:45.196Z] <<< [apiv2][status] GET https://api.github.com/repos//actions/secrets/public-key 404
-[debug] [2021-04-01T07:05:45.196Z] <<< [apiv2][body] GET https://api.github.com/repos//actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
-[debug] [2021-04-01T07:05:54.299Z] >>> [apiv2][query] GET https://api.github.com/repos/Ghost-Clear/Ghost-Clear-Website/actions/secrets/public-key type=owner
-[debug] [2021-04-01T07:05:54.534Z] <<< [apiv2][status] GET https://api.github.com/repos/Ghost-Clear/Ghost-Clear-Website/actions/secrets/public-key 403
-[debug] [2021-04-01T07:05:54.534Z] <<< [apiv2][body] GET https://api.github.com/repos/Ghost-Clear/Ghost-Clear-Website/actions/secrets/public-key {"message":"Must have admin rights to Repository.","documentation_url":"https://docs.github.com/rest/reference/actions#get-a-repository-public-key"}
-[debug] [2021-04-01T07:08:06.027Z] ----------------------------------------------------------------------
-[debug] [2021-04-01T07:08:06.029Z] Command:       /usr/local/Cellar/node/15.11.0/bin/node /usr/local/bin/firebase init hosting:github
-[debug] [2021-04-01T07:08:06.029Z] CLI Version:   9.5.0
-[debug] [2021-04-01T07:08:06.029Z] Platform:      darwin
-[debug] [2021-04-01T07:08:06.029Z] Node Version:  v15.11.0
-[debug] [2021-04-01T07:08:06.030Z] Time:          Thu Apr 01 2021 00:08:06 GMT-0700 (Pacific Daylight Time)
-[debug] [2021-04-01T07:08:06.030Z] ----------------------------------------------------------------------
-[debug] [2021-04-01T07:08:06.030Z] 
-[debug] [2021-04-01T07:08:06.033Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
-[debug] [2021-04-01T07:08:06.034Z] > authorizing via signed-in user
-[info] 
-     ######## #### ########  ######## ########     ###     ######  ########
-     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
-     ######    ##  ########  ######   ########  #########  ######  ######
-     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
-     ##       #### ##     ## ######## ########  ##     ##  ######  ########
-
-You're about to initialize a Firebase project in this directory:
-
-  /Users/varunchitturi/Documents/Coding/Project_Development/Ghost Clear/Ghost Clear Website
-
-Before we get started, keep in mind:
-
-  * You are initializing in an existing Firebase project directory
-
-[info] 
-=== Project Setup
-[info] 
-[info] First, let's associate this project directory with a Firebase project.
-[info] You can create multiple project aliases by running firebase use --add, 
-[info] but for now we'll just set up a default project.
-[info] 
-[info] i  .firebaserc already has a default project, using ghost-clear. 
-[debug] [2021-04-01T07:08:06.039Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/ghost-clear [none]
-[debug] [2021-04-01T07:08:06.284Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/ghost-clear 200
-[debug] [2021-04-01T07:08:06.284Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/ghost-clear {"projectId":"ghost-clear","projectNumber":"263744241940","displayName":"Ghost Clear","name":"projects/ghost-clear","resources":{"hostingSite":"ghost-clear"},"state":"ACTIVE"}
-[info] 
-=== Hosting:github Setup
-[info] 
-[info] i  Detected a .git folder at /Users/varunchitturi/Documents/Coding/Project_Development/Ghost Clear/Ghost Clear Website 
-[info] i  Authorizing with GitHub to upload your service account to a GitHub repository's secrets store. 
-[info] 
-[info] Visit this URL on this device to log in:
-[info] https://github.com/login/oauth/authorize?client_id=89cf50f02ac6aaed3484&state=186611517&redirect_uri=http%3A%2F%2Flocalhost%3A9005&scope=read%3Auser%20repo%20public_repo
-[info] 
-[info] Waiting for authentication...
-[debug] [2021-04-01T07:08:06.703Z] >>> HTTP REQUEST POST https://github.com/login/oauth/access_token  
- {"client_id":"89cf50f02ac6aaed3484","client_secret":"3330d14abc895d9a74d5f17cd7a00711fa2c5bf0","code":"f4729fbc56bfb9789dc9","redirect_uri":"http://localhost:9005","state":"186611517"}
-[debug] [2021-04-01T07:08:06.961Z] <<< HTTP RESPONSE 200 {"server":"GitHub.com","date":"Thu, 01 Apr 2021 07:08:06 GMT","content-type":"application/json; charset=utf-8","transfer-encoding":"chunked","vary":"X-PJAX, Accept-Encoding, Accept, X-Requested-With","etag":"W/\"08a39d9c9aa41fadd98a001b604a22ee\"","cache-control":"max-age=0, private, must-revalidate","strict-transport-security":"max-age=31536000; includeSubdomains; preload","x-frame-options":"deny","x-content-type-options":"nosniff","x-xss-protection":"0","referrer-policy":"origin-when-cross-origin, strict-origin-when-cross-origin","expect-ct":"max-age=2592000, report-uri=\"https://api.github.com/_private/browser/errors\"","content-security-policy":"default-src 'none'; base-uri 'self'; block-all-mixed-content; connect-src 'self' uploads.github.com www.githubstatus.com collector.githubapp.com api.github.com github-cloud.s3.amazonaws.com github-production-repository-file-5c1aeb.s3.amazonaws.com github-production-upload-manifest-file-7fdce7.s3.amazonaws.com github-production-user-asset-6210df.s3.amazonaws.com cdn.optimizely.com logx.optimizely.com/v1/events wss://alive.github.com; font-src github.githubassets.com; form-action 'self' github.com gist.github.com; frame-ancestors 'none'; frame-src render.githubusercontent.com; img-src 'self' data: github.githubassets.com identicons.github.com collector.githubapp.com github-cloud.s3.amazonaws.com secured-user-images.githubusercontent.com/ *.githubusercontent.com; manifest-src 'self'; media-src 'none'; script-src github.githubassets.com; style-src 'unsafe-inline' github.githubassets.com; worker-src github.com/socket-worker-3f088aa2.js gist.github.com/socket-worker-3f088aa2.js","x-github-request-id":"D21C:0CBF:5E21F9:6C4CBB:60657156"}
-[debug] [2021-04-01T07:08:06.963Z] >>> [apiv2][query] GET https://api.github.com/user [none]
-[debug] [2021-04-01T07:08:07.272Z] <<< [apiv2][status] GET https://api.github.com/user 200
-[debug] [2021-04-01T07:08:07.272Z] <<< [apiv2][body] GET https://api.github.com/user {"login":"varunchitturi","id":27111183,"node_id":"MDQ6VXNlcjI3MTExMTgz","avatar_url":"https://avatars.githubusercontent.com/u/27111183?v=4","gravatar_id":"","url":"https://api.github.com/users/varunchitturi","html_url":"https://github.com/varunchitturi","followers_url":"https://api.github.com/users/varunchitturi/followers","following_url":"https://api.github.com/users/varunchitturi/following{/other_user}","gists_url":"https://api.github.com/users/varunchitturi/gists{/gist_id}","starred_url":"https://api.github.com/users/varunchitturi/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/varunchitturi/subscriptions","organizations_url":"https://api.github.com/users/varunchitturi/orgs","repos_url":"https://api.github.com/users/varunchitturi/repos","events_url":"https://api.github.com/users/varunchitturi/events{/privacy}","received_events_url":"https://api.github.com/users/varunchitturi/received_events","type":"User","site_admin":false,"name":"Varun Chitturi","company":"Squash Dev LLC","blog":"","location":"Fremont CA","email":"varunchitturi@icloud.com","hireable":null,"bio":"I currently attend Mission San Jose High School\r\n","twitter_username":null,"public_repos":8,"public_gists":0,"followers":8,"following":15,"created_at":"2017-04-09T01:42:27Z","updated_at":"2021-04-01T07:07:48Z","private_gists":0,"total_private_repos":1,"owned_private_repos":1,"disk_usage":59426,"collaborators":0,"two_factor_authentication":true,"plan":{"name":"pro","space":976562499,"collaborators":0,"private_repos":9999}}
-[info] 
-[info] ✔  Success! Logged into GitHub as varunchitturi 
-[info] 
-[debug] [2021-04-01T07:08:21.617Z] >>> [apiv2][query] GET https://api.github.com/repos/Ghost-Clear/Ghost-Clear-Website/actions/secrets/public-key type=owner
-[debug] [2021-04-01T07:08:21.866Z] <<< [apiv2][status] GET https://api.github.com/repos/Ghost-Clear/Ghost-Clear-Website/actions/secrets/public-key 403
-[debug] [2021-04-01T07:08:21.866Z] <<< [apiv2][body] GET https://api.github.com/repos/Ghost-Clear/Ghost-Clear-Website/actions/secrets/public-key {"message":"Must have admin rights to Repository.","documentation_url":"https://docs.github.com/rest/reference/actions#get-a-repository-public-key"}
-[debug] [2021-04-01T07:09:21.556Z] >>> [apiv2][query] GET https://api.github.com/repos/Ghost-Clear/Ghost-Clear-Website/actions/secrets/public-key type=owner
-[debug] [2021-04-01T07:09:21.821Z] <<< [apiv2][status] GET https://api.github.com/repos/Ghost-Clear/Ghost-Clear-Website/actions/secrets/public-key 403
-[debug] [2021-04-01T07:09:21.821Z] <<< [apiv2][body] GET https://api.github.com/repos/Ghost-Clear/Ghost-Clear-Website/actions/secrets/public-key {"message":"Must have admin rights to Repository.","documentation_url":"https://docs.github.com/rest/reference/actions#get-a-repository-public-key"}
-[debug] [2021-04-01T07:09:23.311Z] >>> [apiv2][query] GET https://api.github.com/repos/Ghost-Clear/Ghost-Clear-Website/actions/secrets/public-key type=owner
-[debug] [2021-04-01T07:09:23.564Z] <<< [apiv2][status] GET https://api.github.com/repos/Ghost-Clear/Ghost-Clear-Website/actions/secrets/public-key 403
-[debug] [2021-04-01T07:09:23.564Z] <<< [apiv2][body] GET https://api.github.com/repos/Ghost-Clear/Ghost-Clear-Website/actions/secrets/public-key {"message":"Must have admin rights to Repository.","documentation_url":"https://docs.github.com/rest/reference/actions#get-a-repository-public-key"}
-[debug] [2021-04-01T07:09:23.812Z] >>> [apiv2][query] GET https://api.github.com/repos//actions/secrets/public-key type=owner
-[debug] [2021-04-01T07:09:23.896Z] >>> [apiv2][query] GET https://api.github.com/repos//actions/secrets/public-key type=owner
-[debug] [2021-04-01T07:09:23.979Z] >>> [apiv2][query] GET https://api.github.com/repos//actions/secrets/public-key type=owner
-[debug] [2021-04-01T07:09:24.035Z] <<< [apiv2][status] GET https://api.github.com/repos//actions/secrets/public-key 404
-[debug] [2021-04-01T07:09:24.036Z] <<< [apiv2][body] GET https://api.github.com/repos//actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
-[debug] [2021-04-01T07:09:24.061Z] >>> [apiv2][query] GET https://api.github.com/repos//actions/secrets/public-key type=owner
-[debug] [2021-04-01T07:09:24.113Z] <<< [apiv2][status] GET https://api.github.com/repos//actions/secrets/public-key 404
-[debug] [2021-04-01T07:09:24.113Z] <<< [apiv2][body] GET https://api.github.com/repos//actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
-[debug] [2021-04-01T07:09:24.195Z] <<< [apiv2][status] GET https://api.github.com/repos//actions/secrets/public-key 404
-[debug] [2021-04-01T07:09:24.195Z] <<< [apiv2][body] GET https://api.github.com/repos//actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
-[debug] [2021-04-01T07:09:24.283Z] <<< [apiv2][status] GET https://api.github.com/repos//actions/secrets/public-key 404
-[debug] [2021-04-01T07:09:24.283Z] <<< [apiv2][body] GET https://api.github.com/repos//actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
-[debug] [2021-04-01T07:09:24.841Z] >>> [apiv2][query] GET https://api.github.com/repos/Ghost-Clear/Ghost-Clear-Website/actions/secrets/public-key type=owner
-[debug] [2021-04-01T07:09:25.103Z] <<< [apiv2][status] GET https://api.github.com/repos/Ghost-Clear/Ghost-Clear-Website/actions/secrets/public-key 403
-[debug] [2021-04-01T07:09:25.103Z] <<< [apiv2][body] GET https://api.github.com/repos/Ghost-Clear/Ghost-Clear-Website/actions/secrets/public-key {"message":"Must have admin rights to Repository.","documentation_url":"https://docs.github.com/rest/reference/actions#get-a-repository-public-key"}
-[debug] [2021-04-01T07:09:25.343Z] >>> [apiv2][query] GET https://api.github.com/repos//actions/secrets/public-key type=owner
-[debug] [2021-04-01T07:09:25.424Z] >>> [apiv2][query] GET https://api.github.com/repos//actions/secrets/public-key type=owner
-[debug] [2021-04-01T07:09:25.508Z] >>> [apiv2][query] GET https://api.github.com/repos//actions/secrets/public-key type=owner
-[debug] [2021-04-01T07:09:25.566Z] <<< [apiv2][status] GET https://api.github.com/repos//actions/secrets/public-key 404
-[debug] [2021-04-01T07:09:25.566Z] <<< [apiv2][body] GET https://api.github.com/repos//actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
-[debug] [2021-04-01T07:09:25.645Z] <<< [apiv2][status] GET https://api.github.com/repos//actions/secrets/public-key 404
-[debug] [2021-04-01T07:09:25.645Z] <<< [apiv2][body] GET https://api.github.com/repos//actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
-[debug] [2021-04-01T07:09:25.732Z] <<< [apiv2][status] GET https://api.github.com/repos//actions/secrets/public-key 404
-[debug] [2021-04-01T07:09:25.732Z] <<< [apiv2][body] GET https://api.github.com/repos//actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
-[debug] [2021-04-01T07:09:42.245Z] >>> [apiv2][query] GET https://api.github.com/repos/Ghost-Clear/Ghost-Clear-Website/actions/secrets/public-key type=owner
-[debug] [2021-04-01T07:09:42.490Z] <<< [apiv2][status] GET https://api.github.com/repos/Ghost-Clear/Ghost-Clear-Website/actions/secrets/public-key 403
-[debug] [2021-04-01T07:09:42.491Z] <<< [apiv2][body] GET https://api.github.com/repos/Ghost-Clear/Ghost-Clear-Website/actions/secrets/public-key {"message":"Must have admin rights to Repository.","documentation_url":"https://docs.github.com/rest/reference/actions#get-a-repository-public-key"}
-[debug] [2021-04-01T07:09:47.903Z] >>> [apiv2][query] GET https://api.github.com/repos/Ghost-Clear/Ghost-Clear-Website/actions/secrets/public-key type=owner
-[debug] [2021-04-01T07:09:48.143Z] <<< [apiv2][status] GET https://api.github.com/repos/Ghost-Clear/Ghost-Clear-Website/actions/secrets/public-key 403
-[debug] [2021-04-01T07:09:48.144Z] <<< [apiv2][body] GET https://api.github.com/repos/Ghost-Clear/Ghost-Clear-Website/actions/secrets/public-key {"message":"Must have admin rights to Repository.","documentation_url":"https://docs.github.com/rest/reference/actions#get-a-repository-public-key"}
-[debug] [2021-04-01T07:09:48.406Z] >>> [apiv2][query] GET https://api.github.com/repos//actions/secrets/public-key type=owner
-[debug] [2021-04-01T07:09:48.488Z] >>> [apiv2][query] GET https://api.github.com/repos//actions/secrets/public-key type=owner
-[debug] [2021-04-01T07:09:48.570Z] >>> [apiv2][query] GET https://api.github.com/repos//actions/secrets/public-key type=owner
-[debug] [2021-04-01T07:09:48.638Z] <<< [apiv2][status] GET https://api.github.com/repos//actions/secrets/public-key 404
-[debug] [2021-04-01T07:09:48.638Z] <<< [apiv2][body] GET https://api.github.com/repos//actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
-[debug] [2021-04-01T07:09:48.653Z] >>> [apiv2][query] GET https://api.github.com/repos//actions/secrets/public-key type=owner
-[debug] [2021-04-01T07:09:48.699Z] <<< [apiv2][status] GET https://api.github.com/repos//actions/secrets/public-key 404
-[debug] [2021-04-01T07:09:48.699Z] <<< [apiv2][body] GET https://api.github.com/repos//actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
-[debug] [2021-04-01T07:09:48.737Z] >>> [apiv2][query] GET https://api.github.com/repos//actions/secrets/public-key type=owner
-[debug] [2021-04-01T07:09:48.792Z] <<< [apiv2][status] GET https://api.github.com/repos//actions/secrets/public-key 404
-[debug] [2021-04-01T07:09:48.793Z] <<< [apiv2][body] GET https://api.github.com/repos//actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
-[debug] [2021-04-01T07:09:48.819Z] >>> [apiv2][query] GET https://api.github.com/repos//actions/secrets/public-key type=owner
-[debug] [2021-04-01T07:09:48.879Z] <<< [apiv2][status] GET https://api.github.com/repos//actions/secrets/public-key 404
-[debug] [2021-04-01T07:09:48.879Z] <<< [apiv2][body] GET https://api.github.com/repos//actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
-[debug] [2021-04-01T07:09:48.902Z] >>> [apiv2][query] GET https://api.github.com/repos//actions/secrets/public-key type=owner
-[debug] [2021-04-01T07:09:48.986Z] <<< [apiv2][status] GET https://api.github.com/repos//actions/secrets/public-key 404
-[debug] [2021-04-01T07:09:48.986Z] <<< [apiv2][body] GET https://api.github.com/repos//actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
-[debug] [2021-04-01T07:09:48.987Z] >>> [apiv2][query] GET https://api.github.com/repos//actions/secrets/public-key type=owner
-[debug] [2021-04-01T07:09:49.047Z] <<< [apiv2][status] GET https://api.github.com/repos//actions/secrets/public-key 404
-[debug] [2021-04-01T07:09:49.047Z] <<< [apiv2][body] GET https://api.github.com/repos//actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
-[debug] [2021-04-01T07:09:49.071Z] >>> [apiv2][query] GET https://api.github.com/repos//actions/secrets/public-key type=owner
-[debug] [2021-04-01T07:09:49.127Z] <<< [apiv2][status] GET https://api.github.com/repos//actions/secrets/public-key 404
-[debug] [2021-04-01T07:09:49.127Z] <<< [apiv2][body] GET https://api.github.com/repos//actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
-[debug] [2021-04-01T07:09:49.156Z] >>> [apiv2][query] GET https://api.github.com/repos//actions/secrets/public-key type=owner
-[debug] [2021-04-01T07:09:49.210Z] <<< [apiv2][status] GET https://api.github.com/repos//actions/secrets/public-key 404
-[debug] [2021-04-01T07:09:49.211Z] <<< [apiv2][body] GET https://api.github.com/repos//actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
-[debug] [2021-04-01T07:09:49.239Z] >>> [apiv2][query] GET https://api.github.com/repos//actions/secrets/public-key type=owner
-[debug] [2021-04-01T07:09:49.289Z] <<< [apiv2][status] GET https://api.github.com/repos//actions/secrets/public-key 404
-[debug] [2021-04-01T07:09:49.289Z] <<< [apiv2][body] GET https://api.github.com/repos//actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
-[debug] [2021-04-01T07:09:49.323Z] >>> [apiv2][query] GET https://api.github.com/repos//actions/secrets/public-key type=owner
-[debug] [2021-04-01T07:09:49.382Z] <<< [apiv2][status] GET https://api.github.com/repos//actions/secrets/public-key 404
-[debug] [2021-04-01T07:09:49.382Z] <<< [apiv2][body] GET https://api.github.com/repos//actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
-[debug] [2021-04-01T07:09:49.407Z] >>> [apiv2][query] GET https://api.github.com/repos//actions/secrets/public-key type=owner
-[debug] [2021-04-01T07:09:49.470Z] <<< [apiv2][status] GET https://api.github.com/repos//actions/secrets/public-key 404
-[debug] [2021-04-01T07:09:49.470Z] <<< [apiv2][body] GET https://api.github.com/repos//actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
-[debug] [2021-04-01T07:09:49.490Z] >>> [apiv2][query] GET https://api.github.com/repos//actions/secrets/public-key type=owner
-[debug] [2021-04-01T07:09:49.559Z] <<< [apiv2][status] GET https://api.github.com/repos//actions/secrets/public-key 404
-[debug] [2021-04-01T07:09:49.560Z] <<< [apiv2][body] GET https://api.github.com/repos//actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
-[debug] [2021-04-01T07:09:49.648Z] <<< [apiv2][status] GET https://api.github.com/repos//actions/secrets/public-key 404
-[debug] [2021-04-01T07:09:49.648Z] <<< [apiv2][body] GET https://api.github.com/repos//actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
-[debug] [2021-04-01T07:09:49.718Z] <<< [apiv2][status] GET https://api.github.com/repos//actions/secrets/public-key 404
-[debug] [2021-04-01T07:09:49.718Z] <<< [apiv2][body] GET https://api.github.com/repos//actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
-[debug] [2021-04-01T07:09:49.746Z] >>> [apiv2][query] GET https://api.github.com/repos//actions/secrets/public-key type=owner
-[debug] [2021-04-01T07:09:49.951Z] >>> [apiv2][query] GET https://api.github.com/repos//actions/secrets/public-key type=owner
-[debug] [2021-04-01T07:09:49.966Z] <<< [apiv2][status] GET https://api.github.com/repos//actions/secrets/public-key 404
-[debug] [2021-04-01T07:09:49.966Z] <<< [apiv2][body] GET https://api.github.com/repos//actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
-[debug] [2021-04-01T07:09:50.131Z] >>> [apiv2][query] GET https://api.github.com/repos//actions/secrets/public-key type=owner
-[debug] [2021-04-01T07:09:50.166Z] <<< [apiv2][status] GET https://api.github.com/repos//actions/secrets/public-key 404
-[debug] [2021-04-01T07:09:50.167Z] <<< [apiv2][body] GET https://api.github.com/repos//actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
-[debug] [2021-04-01T07:09:50.349Z] <<< [apiv2][status] GET https://api.github.com/repos//actions/secrets/public-key 404
-[debug] [2021-04-01T07:09:50.350Z] <<< [apiv2][body] GET https://api.github.com/repos//actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
+[debug] [2021-04-01T07:20:10.938Z] >>> [apiv2][query] GET https://api.github.com/repos/varunchitturi/Ghost-Clear-Website/actions/secrets/public-key type=owner
+[debug] [2021-04-01T07:20:11.423Z] <<< [apiv2][status] GET https://api.github.com/repos/varunchitturi/Ghost-Clear-Website/actions/secrets/public-key 403
+[debug] [2021-04-01T07:20:11.423Z] <<< [apiv2][body] GET https://api.github.com/repos/varunchitturi/Ghost-Clear-Website/actions/secrets/public-key {"message":"Must have admin rights to Repository.","documentation_url":"https://docs.github.com/rest/reference/actions#get-a-repository-public-key"}
+[debug] [2021-04-01T07:20:52.752Z] >>> [apiv2][query] GET https://api.github.com/repos//actions/secrets/public-key type=owner
+[debug] [2021-04-01T07:20:52.973Z] <<< [apiv2][status] GET https://api.github.com/repos//actions/secrets/public-key 404
+[debug] [2021-04-01T07:20:52.973Z] <<< [apiv2][body] GET https://api.github.com/repos//actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
+[debug] [2021-04-01T07:20:53.428Z] >>> [apiv2][query] GET https://api.github.com/repos//actions/secrets/public-key type=owner
+[debug] [2021-04-01T07:20:53.596Z] >>> [apiv2][query] GET https://api.github.com/repos//actions/secrets/public-key type=owner
+[debug] [2021-04-01T07:20:53.683Z] <<< [apiv2][status] GET https://api.github.com/repos//actions/secrets/public-key 404
+[debug] [2021-04-01T07:20:53.683Z] <<< [apiv2][body] GET https://api.github.com/repos//actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
+[debug] [2021-04-01T07:20:53.754Z] >>> [apiv2][query] GET https://api.github.com/repos//actions/secrets/public-key type=owner
+[debug] [2021-04-01T07:20:53.827Z] <<< [apiv2][status] GET https://api.github.com/repos//actions/secrets/public-key 404
+[debug] [2021-04-01T07:20:53.827Z] <<< [apiv2][body] GET https://api.github.com/repos//actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
+[debug] [2021-04-01T07:20:53.910Z] >>> [apiv2][query] GET https://api.github.com/repos//actions/secrets/public-key type=owner
+[debug] [2021-04-01T07:20:53.970Z] <<< [apiv2][status] GET https://api.github.com/repos//actions/secrets/public-key 404
+[debug] [2021-04-01T07:20:53.970Z] <<< [apiv2][body] GET https://api.github.com/repos//actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
+[debug] [2021-04-01T07:20:54.069Z] >>> [apiv2][query] GET https://api.github.com/repos//actions/secrets/public-key type=owner
+[debug] [2021-04-01T07:20:54.136Z] <<< [apiv2][status] GET https://api.github.com/repos//actions/secrets/public-key 404
+[debug] [2021-04-01T07:20:54.136Z] <<< [apiv2][body] GET https://api.github.com/repos//actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
+[debug] [2021-04-01T07:20:54.292Z] <<< [apiv2][status] GET https://api.github.com/repos//actions/secrets/public-key 404
+[debug] [2021-04-01T07:20:54.292Z] <<< [apiv2][body] GET https://api.github.com/repos//actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
+[debug] [2021-04-01T07:20:56.026Z] >>> [apiv2][query] GET https://api.github.com/repos/varunchitturi/actions/secrets/public-key type=owner
+[debug] [2021-04-01T07:20:56.244Z] <<< [apiv2][status] GET https://api.github.com/repos/varunchitturi/actions/secrets/public-key 404
+[debug] [2021-04-01T07:20:56.244Z] <<< [apiv2][body] GET https://api.github.com/repos/varunchitturi/actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
+[debug] [2021-04-01T07:23:20.509Z] >>> [apiv2][query] GET https://api.github.com/repos/Ghost-Clear/Ghost-Clear-Website/actions/secrets/public-key type=owner
+[debug] [2021-04-01T07:23:20.795Z] <<< [apiv2][status] GET https://api.github.com/repos/Ghost-Clear/Ghost-Clear-Website/actions/secrets/public-key 403
+[debug] [2021-04-01T07:23:20.795Z] <<< [apiv2][body] GET https://api.github.com/repos/Ghost-Clear/Ghost-Clear-Website/actions/secrets/public-key {"message":"Must have admin rights to Repository.","documentation_url":"https://docs.github.com/rest/reference/actions#get-a-repository-public-key"}
