@@ -17,5 +17,6 @@
     <orderEntry type="library" name="font-awesome" level="application" />
     <orderEntry type="library" name="animate.css" level="application" />
     <orderEntry type="library" name="loader" level="application" />
+    <orderEntry type="library" name="rellax" level="application" />
   </component>
 </module>
